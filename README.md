@@ -1,3 +1,5 @@
+### This repository hosts the unofficial KiCAD port of the Ploopy Mini's PCB design files. The Gerber outputs have been validated with a fully functional physical prototype; however the files are provided "AS IS". Other than as provided in this agreement, Developer makes no other warranties, express or implied, and hereby disclaims all implied warranties, including any warranty of merchantability and warranty of fitness for a particular purpose.
+
 # The Ploopy Mini Trackball
 
 ![The Ploopy Nano Trackball](mini.jpg)
