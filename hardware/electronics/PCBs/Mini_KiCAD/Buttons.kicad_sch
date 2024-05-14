@@ -803,6 +803,61 @@
 		)
 		(uuid "ff317825-66d6-4c70-bb86-622a00a67b87")
 	)
+	(label "SW8"
+		(at 177.8 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65cda2a6-cb39-4650-834f-7ffbc82dd94b")
+	)
+	(label "SW7"
+		(at 200.66 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84d4f201-176e-41b8-857c-8d1cb082fab0")
+	)
+	(label "SW2"
+		(at 124.46 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9860f3a5-6c51-4f5b-89b7-c194ef76c8c7")
+	)
+	(label "SW5"
+		(at 200.66 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdb4672b-f330-490e-aa45-550a329222a5")
+	)
+	(label "SW1"
+		(at 124.46 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e113e1ec-617a-4844-b933-23793142ae0e")
+	)
 	(hierarchical_label "ButtonBack"
 		(shape output)
 		(at 180.34 101.6 180)
@@ -995,7 +1050,7 @@
 	)
 	(symbol
 		(lib_id "Mini-altium-import:BTN_0_D2LS-21")
-		(at 167.64 127 0)
+		(at 167.64 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1003,7 +1058,7 @@
 		(dnp no)
 		(uuid "8f80b913-9e43-4638-8a0a-c5300875a865")
 		(property "Reference" "BTN.SW8"
-			(at 162.306 123.19 0)
+			(at 172.974 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1067,7 @@
 			)
 		)
 		(property "Value" "D2LS-21"
-			(at 162.306 132.08 0)
+			(at 172.974 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1075,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "D2LS-21"
+		(property "Footprint" "Switches.PcbLib:D2LS-21"
 			(at 167.64 127 0)
 			(effects
 				(font
@@ -1048,7 +1103,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 159.512 123.19 0)
+			(at 175.768 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1113,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 159.512 120.65 0)
+			(at 175.768 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1123,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "Z4378CT-ND"
-			(at 159.512 123.19 0)
+			(at 175.768 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1133,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "653-D2LS-21"
-			(at 159.512 120.65 0)
+			(at 175.768 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "D2LS-21"
+		(property "Footprint" "Switches.PcbLib:D2LS-21"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -1238,7 +1293,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "D2LS-21"
+		(property "Footprint" "Switches.PcbLib:D2LS-21"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -1412,7 +1467,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "D2LS-21"
+		(property "Footprint" "Switches.PcbLib:D2LS-21"
 			(at 114.3 76.2 0)
 			(effects
 				(font
@@ -1521,7 +1576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "D2LS-21"
+		(property "Footprint" "Switches.PcbLib:D2LS-21"
 			(at 190.5 76.2 0)
 			(effects
 				(font
