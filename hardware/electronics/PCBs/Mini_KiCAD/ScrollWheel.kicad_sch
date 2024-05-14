@@ -1184,17 +1184,6 @@
 		)
 		(uuid "7dc9d42c-d3eb-4ac4-b23e-52953697f3c5")
 	)
-	(text "${CURRENTTIME}"
-		(exclude_from_sim no)
-		(at 194.31 210.82 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cae7c14-16ab-49bf-89ab-06346e423670")
-	)
 	(text "${##}"
 		(exclude_from_sim no)
 		(at 233.68 210.82 0)
@@ -1283,7 +1272,7 @@
 		)
 		(uuid "ef6f8859-ec07-43dd-8854-bab2fa4b1291")
 	)
-	(label "V_USB"
+	(label "3V3"
 		(at 91.44 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1294,8 +1283,8 @@
 		)
 		(uuid "59956633-9ffa-411f-973c-2be57ddd5b1a")
 	)
-	(label "V_USB"
-		(at 142.24 114.3 0)
+	(label "SCW.D11"
+		(at 101.6 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1303,9 +1292,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8f35e5c3-8295-4a5d-887f-b726c20cc5ab")
+		(uuid "5ac3156d-c2ea-43f0-9067-bf51f0870c12")
 	)
-	(label "V_USB"
+	(label "3V3"
 		(at 139.7 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1314,7 +1303,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c1a8116e-cafd-41ce-bfaf-36a7f997f747")
+		(uuid "b5e3acae-ec8a-49e7-84d3-1b57421a7911")
+	)
+	(label "3V3"
+		(at 142.24 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec2f459e-5d58-4dda-9483-a8e65767ce1d")
 	)
 	(hierarchical_label "ScrollWheelOpto0"
 		(shape output)
@@ -1328,6 +1328,18 @@
 		)
 		(uuid "20080d28-f259-4088-90f2-4931e93b769c")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 142.24 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3614686e-432e-4e81-8509-c2081e9df107")
+	)
 	(hierarchical_label "ScrollWheelOpto1"
 		(shape output)
 		(at 154.94 129.54 0)
@@ -1340,7 +1352,19 @@
 		)
 		(uuid "52f1276f-0ce9-46da-b055-0dd620104f26")
 	)
-	(hierarchical_label "V_USB"
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 139.7 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a839f262-ef31-4b0d-9324-c484558ae2df")
+	)
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 91.44 60.96 180)
 		(fields_autoplaced yes)
@@ -1361,7 +1385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "092d0d05-759e-423d-a00e-92448e23b52d")
-		(property "Reference" "SCW.r.4"
+		(property "Reference" "SCW.R.4"
 			(at 153.162 136.906 0)
 			(effects
 				(font
@@ -1379,7 +1403,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805"
 			(at 149.86 139.7 0)
 			(effects
 				(font
@@ -1444,7 +1468,7 @@
 		(instances
 			(project "Mini"
 				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/10daec88-f6fe-4771-a75f-0b8234f02ca1"
-					(reference "SCW.r.4")
+					(reference "SCW.R.4")
 					(unit 1)
 				)
 			)
@@ -1477,7 +1501,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PT26-51B/TR8"
+		(property "Footprint" "OptoElectronics.PcbLib:PT26-51B_TR8"
 			(at 152.4 124.46 0)
 			(effects
 				(font
@@ -1716,7 +1740,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "IR12-21C/TR8"
+		(property "Footprint" "LEDs:XZTHI56W-1"
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -1885,7 +1909,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -2048,7 +2072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805"
 			(at 99.06 71.12 0)
 			(effects
 				(font
@@ -2166,7 +2190,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PT26-51B/TR8"
+		(property "Footprint" "OptoElectronics.PcbLib:PT26-51B_TR8"
 			(at 152.4 71.12 0)
 			(effects
 				(font
@@ -2275,7 +2299,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "IR12-21C/TR8"
+		(property "Footprint" "LEDs:XZTHI56W-1"
 			(at 101.6 132.08 0)
 			(effects
 				(font

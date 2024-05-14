@@ -147,290 +147,6 @@
 				)
 			)
 		)
-		(symbol "Mini-altium-import:MCH_0_CoordinateSystem"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Coordinate{space}System*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCH_0_CoordinateSystem_1_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 -5.08) (xy 3.81 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "X/Y"
-					(at -1.27 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-		)
-		(symbol "Mini-altium-import:MCH_0_FIDUCIAL_1.5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IPC-7351 Fiducial 1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*FIDUCIAL_1.5*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCH_0_FIDUCIAL_1.5_1_0"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.0254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 7.62) hide
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Mini-altium-import:MCH_0_PloopyLogo"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*PloopyLogo*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCH_0_PloopyLogo_1_0"
-				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "Ploopy"
-					(at -3.302 -1.016 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-		)
 		(symbol "Mini-altium-import:MCH_0_Spark Gap"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1161,17 +877,6 @@
 		)
 		(uuid "48aed884-1c7e-49f1-a7b9-8b84cb0969e8")
 	)
-	(text "${CURRENTTIME}"
-		(exclude_from_sim no)
-		(at 194.31 210.82 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "54653608-9f08-4b38-bbca-59d654d61d91")
-	)
 	(text "PCB:"
 		(exclude_from_sim no)
 		(at 168.91 207.01 0)
@@ -1321,7 +1026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 180.34 147.32 0)
 			(effects
 				(font
@@ -1551,69 +1256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:MCH_0_CoordinateSystem")
-		(at 91.44 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08d1cc26-2c47-43c6-8ba6-fea13c18ec46")
-		(property "Reference" "LOGO2"
-			(at 83.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Coordinate system marker for assembly"
-			(at 83.82 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Coordinate System"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Mini"
-				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/347d23ed-e63c-44de-886c-f795b439e13a"
-					(reference "LOGO2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mini-altium-import:MCH_0_Spark Gap")
 		(at 200.66 96.52 0)
 		(unit 1)
@@ -1641,7 +1283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 200.66 96.52 0)
 			(effects
 				(font
@@ -1898,7 +1540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 195.58 147.32 0)
 			(effects
 				(font
@@ -2155,7 +1797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 200.66 147.32 0)
 			(effects
 				(font
@@ -2412,7 +2054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 180.34 121.92 0)
 			(effects
 				(font
@@ -2642,262 +2284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:MCH_0_FIDUCIAL_1.5")
-		(at 87.63 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19f31b21-6bac-4a98-9911-1438c37b81d7")
-		(property "Reference" "FID2"
-			(at 85.09 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IPC-7351 Fiducial 1mm"
-			(at 85.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "FIDUCIAL_1.5"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PNP-NZL" "2"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DX" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DY" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-X" "4"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Y" "4"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-A" "1"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PT" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-W" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-THK" "1.02"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LV" "1"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TS" "70"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LEVEL" "1"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TYPE" "MARK1"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-VOFF" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-FEEDTYPE" "Fiducial"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEWIDTH" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PLACEPRIORITY" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEINDEX" "0"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DA" "0"
-			(at 85.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84838390-2ce3-48ed-97b9-46aebf219d61")
-		)
-		(instances
-			(project "Mini"
-				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/347d23ed-e63c-44de-886c-f795b439e13a"
-					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mini-altium-import:MCH_0_Spark Gap")
 		(at 177.8 96.52 0)
 		(unit 1)
@@ -2925,7 +2311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 177.8 96.52 0)
 			(effects
 				(font
@@ -3182,7 +2568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 175.26 121.92 0)
 			(effects
 				(font
@@ -3439,7 +2825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 200.66 121.92 0)
 			(effects
 				(font
@@ -3669,259 +3055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:MCH_0_PloopyLogo")
-		(at 60.96 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3723f5e5-53dc-4c56-834e-704fd157e77e")
-		(property "Reference" "LOGO1"
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Ploopy logo, silkscreen"
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PloopyLogo"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PNP-NZL" "2"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DX" "0"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DY" "0"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-X" "1"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Y" "1"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-A" "0"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PT" "0"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-W" "0"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-THK" "1"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LV" "1"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TS" "70"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LEVEL" "1"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TYPE" "CHI"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-VOFF" "0"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-FEEDTYPE" "Tape"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEWIDTH" "8"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PLACEPRIORITY" "1"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEINDEX" "1"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DA" "0"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Mini"
-				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/347d23ed-e63c-44de-886c-f795b439e13a"
-					(reference "LOGO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mini-altium-import:MCH_0_Spark Gap")
 		(at 203.2 96.52 0)
 		(unit 1)
@@ -3949,7 +3082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -4206,7 +3339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 180.34 96.52 0)
 			(effects
 				(font
@@ -4528,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 205.74 121.92 0)
 			(effects
 				(font
@@ -4785,7 +3918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -5042,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 175.26 147.32 0)
 			(effects
 				(font
@@ -5299,7 +4432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 205.74 147.32 0)
 			(effects
 				(font
@@ -5556,7 +4689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 185.42 96.52 0)
 			(effects
 				(font
@@ -5813,7 +4946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 205.74 96.52 0)
 			(effects
 				(font
@@ -6070,7 +5203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 175.26 96.52 0)
 			(effects
 				(font
@@ -6327,7 +5460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -6584,7 +5717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -6906,7 +6039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 170.18 121.92 0)
 			(effects
 				(font
@@ -7228,7 +6361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 190.5 121.92 0)
 			(effects
 				(font
@@ -7485,7 +6618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 190.5 147.32 0)
 			(effects
 				(font
@@ -7742,7 +6875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 185.42 121.92 0)
 			(effects
 				(font
@@ -7999,7 +7132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 172.72 96.52 0)
 			(effects
 				(font
@@ -8256,7 +7389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -8513,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 170.18 147.32 0)
 			(effects
 				(font
@@ -8743,262 +7876,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:MCH_0_FIDUCIAL_1.5")
-		(at 57.15 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7cd7fb9-82a4-4388-b560-6cfd36308dfc")
-		(property "Reference" "FID1"
-			(at 54.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "IPC-7351 Fiducial 1mm"
-			(at 54.61 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PNP-NZL" "2"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DX" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DY" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-X" "4"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Y" "4"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-A" "1"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PT" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-W" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-THK" "1.02"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LV" "1"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TS" "70"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LEVEL" "1"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TYPE" "MARK1"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-VOFF" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-FEEDTYPE" "Fiducial"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEWIDTH" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PLACEPRIORITY" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEINDEX" "0"
-			(at 57.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DA" "0"
-			(at 54.61 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bad99921-b8d2-4167-a844-df48923b143f")
-		)
-		(instances
-			(project "Mini"
-				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/347d23ed-e63c-44de-886c-f795b439e13a"
-					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mini-altium-import:MCH_0_Spark Gap")
 		(at 185.42 147.32 0)
 		(unit 1)
@@ -9026,7 +7903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 185.42 147.32 0)
 			(effects
 				(font
@@ -9283,7 +8160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkGap"
+		(property "Footprint" "PCBFeatures.PcbLib:SparkGap"
 			(at 190.5 96.52 0)
 			(effects
 				(font

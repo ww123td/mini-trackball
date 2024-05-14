@@ -10,16 +10,16 @@
 	)
 	(lib_symbols)
 	(junction
-		(at 68.58 91.44)
+		(at 68.58 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "721222be-3a42-4225-806c-f1a48ec1e984")
+		(uuid "be952bc6-99f5-44ca-b373-d1ec18b8e71c")
 	)
 	(junction
-		(at 68.58 81.28)
+		(at 68.58 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4fcc844-7f64-4112-af98-de39d51fe9dd")
+		(uuid "cd1fcc69-5308-411b-8e60-ffbeeb5eba89")
 	)
 	(polyline
 		(pts
@@ -34,17 +34,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 114.3 81.28)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0b3265c2-de30-4605-b3bb-2598a3ece77b")
-	)
-	(wire
-		(pts
-			(xy 71.12 73.66) (xy 68.58 73.66)
+			(xy 71.12 73.66) (xy 59.69 73.66)
 		)
 		(stroke
 			(width 0.254)
@@ -54,13 +44,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 91.44) (xy 71.12 91.44)
+			(xy 71.12 134.62) (xy 59.69 134.62)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "1593cc72-db45-4f2a-8296-8a92f223d68e")
+		(uuid "27d452ce-3db3-4e17-a22b-82ca9b373f11")
 	)
 	(polyline
 		(pts
@@ -75,13 +65,63 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 91.44) (xy 68.58 106.68)
+			(xy 71.12 132.08) (xy 66.04 132.08)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "6a58c68c-01c5-42fa-963b-f8d91984a11c")
+		(uuid "445ba04d-d115-4ccd-9745-bf313c6ba5e6")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 71.12 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fd22ee-a923-44db-954f-77a97f6afdbd")
+	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 68.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8fd9c6-f5a3-45cb-ac5a-7bc06ae534f6")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51efdfb9-0931-4630-a5cd-9be60c9dc929")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3298e1-d4ef-4f93-9fe8-b3a8ff8da538")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd08155-7a31-4fc0-a069-c46f9b891ae4")
 	)
 	(polyline
 		(pts
@@ -96,7 +136,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 68.58 81.28)
+			(xy 59.69 73.66) (xy 59.69 134.62)
 		)
 		(stroke
 			(width 0.254)
@@ -114,6 +154,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "a5104e52-98ee-40fc-9e66-b21d99609339")
+	)
+	(wire
+		(pts
+			(xy 71.12 129.54) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24ea553-003c-49b5-863e-ba7f025478a9")
 	)
 	(polyline
 		(pts
@@ -139,13 +189,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 106.68) (xy 71.12 106.68)
+			(xy 66.04 132.08) (xy 66.04 104.14)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "d0183ebb-7fc3-4d13-88ec-b8567efd5698")
+		(uuid "cf397507-a935-4a50-a02a-5c704968ebc5")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9616c3d-575a-4f9c-b860-4a223ec1ef21")
 	)
 	(polyline
 		(pts
@@ -171,13 +231,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 68.58 91.44)
+			(xy 68.58 123.19) (xy 114.3 123.19)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "f6e237b4-4a33-4151-aafd-1f0c34e2770c")
+		(uuid "e4a65281-7828-4c35-a235-1fbd09558de7")
 	)
 	(text_box "This source describes Open Hardware and is licensed under the CERN-OHL-S v2.\n\nYou may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cernohlsv2.txt). This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. \n\nPlease see the CERN-OHL-S v2 for applicable conditions.\n\nSource location:  https://github.com/ploopyco/trackball-mini\n\nAs per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Ploopy Mini Trackball or other products you make using this source."
 		(exclude_from_sim no)
@@ -243,17 +303,6 @@
 			(justify left bottom)
 		)
 		(uuid "14b5d40d-ba2e-4598-93c6-c98c6605a5d2")
-	)
-	(text "${CURRENTTIME}"
-		(exclude_from_sim no)
-		(at 194.31 210.82 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "281c0f2a-d2ac-47c3-a2d0-f2a032759e99")
 	)
 	(text "${#}"
 		(exclude_from_sim no)
@@ -432,7 +481,7 @@
 		(uuid "f6d28229-5252-4184-99b0-3591256bef02")
 	)
 	(sheet
-		(at 71.12 88.9)
+		(at 71.12 83.82)
 		(size 43.18 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -445,7 +494,7 @@
 		)
 		(uuid "10daec88-f6fe-4771-a75f-0b8234f02ca1")
 		(property "Sheetname" "SCW"
-			(at 71.12 86.36 0)
+			(at 71.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +503,7 @@
 			)
 		)
 		(property "Sheetfile" "ScrollWheel.kicad_sch"
-			(at 71.12 88.9 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,7 +512,7 @@
 			)
 		)
 		(pin "ScrollWheelOpto1" output
-			(at 114.3 93.98 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +522,7 @@
 			(uuid "c676f8de-39bb-4d05-b61b-fe60fce7d21b")
 		)
 		(pin "ScrollWheelOpto0" output
-			(at 114.3 91.44 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,15 +531,84 @@
 			)
 			(uuid "6229c386-dd24-4443-9f56-dc45e2dd3113")
 		)
-		(pin "V_USB" input
-			(at 71.12 91.44 180)
+		(pin "3V3" input
+			(at 71.12 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6fe90892-7499-46ee-9933-6fc2dbaeb68b")
+			(uuid "388fc4aa-9d5c-4687-8383-d22eb55c1ed6")
+		)
+		(instances
+			(project "Mini"
+				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 127)
+		(size 43.18 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "1faf9b33-b055-4bb1-8a99-61f96e7aae2e")
+		(property "Sheetname" "REG"
+			(at 71.12 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulators.kicad_sch"
+			(at 71.12 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_USB" input
+			(at 71.12 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8252599-d0f6-484a-9127-1156eae12cf9")
+		)
+		(pin "3V3" output
+			(at 71.12 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa696881-0299-40cd-a50a-761d63a5a397")
+		)
+		(pin "1V8" output
+			(at 71.12 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6c9a74d-1ff4-4e96-a7c3-f701546a5ca8")
 		)
 		(instances
 			(project "Mini"
@@ -698,8 +816,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 104.14)
-		(size 43.18 15.24)
+		(at 71.12 99.06)
+		(size 43.18 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -711,7 +829,7 @@
 		)
 		(uuid "bfc873e8-8e5e-4376-90fa-0ac540d6416d")
 		(property "Sheetname" "MOS"
-			(at 71.12 101.6 0)
+			(at 71.12 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,16 +838,16 @@
 			)
 		)
 		(property "Sheetfile" "MouseSensor.kicad_sch"
-			(at 71.12 104.14 0)
+			(at 71.12 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(pin "~{RESET}" input
-			(at 114.3 116.84 0)
+			(at 114.3 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +856,7 @@
 			)
 			(uuid "fa242396-0e01-4732-9c05-2ae4f8073d90")
 		)
-		(pin "V_USB" input
+		(pin "3V3" input
 			(at 71.12 106.68 180)
 			(effects
 				(font
@@ -746,19 +864,19 @@
 				)
 				(justify left)
 			)
-			(uuid "41069226-039d-44db-8b87-68b01a433975")
+			(uuid "804139c3-5078-4907-a47e-f361c273ba68")
 		)
-		(pin "ADNS_~{CS}" input
-			(at 114.3 106.68 0)
+		(pin "1V8" input
+			(at 71.12 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "a8f2f0a4-b362-4e08-87c4-248d52d45ec9")
+			(uuid "cfaaffa4-dfde-40cf-bec0-6cec215c5082")
 		)
-		(pin "ADNS_SDIO" bidirectional
+		(pin "MISO" output
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -766,9 +884,19 @@
 				)
 				(justify right)
 			)
-			(uuid "8da856ad-6405-4e10-8f05-dc7d6db9e034")
+			(uuid "c8353208-cd69-4d37-9e6d-c805585166bc")
 		)
-		(pin "ADNS_SCLK" input
+		(pin "SCLK" input
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84fc2b0c-922b-4672-8883-dfed46813ed7")
+		)
+		(pin "MOTION" output
 			(at 114.3 111.76 0)
 			(effects
 				(font
@@ -776,7 +904,27 @@
 				)
 				(justify right)
 			)
-			(uuid "7102bf64-ef79-486c-8f8d-5d1a978ae989")
+			(uuid "b544bb00-136e-4a0e-82c3-7780500e676a")
+		)
+		(pin "~{CS}" input
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "668089c2-a111-4969-991c-ab66c7333840")
+		)
+		(pin "MOSI" input
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4076a55a-dd0b-4f45-886b-bffd3dab2b25")
 		)
 		(instances
 			(project "Mini"
@@ -788,7 +936,7 @@
 	)
 	(sheet
 		(at 114.3 71.12)
-		(size 58.42 48.26)
+		(size 58.42 66.04)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -800,7 +948,7 @@
 		)
 		(uuid "e736d2e6-c26a-40c5-bd32-613a14d61071")
 		(property "Sheetname" "MCU"
-			(at 114.3 68.58 0)
+			(at 114.3 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,12 +957,12 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 114.3 71.12 0)
+			(at 114.3 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(pin "D+" bidirectional
@@ -867,16 +1015,6 @@
 			)
 			(uuid "dc4b5781-8e3e-4f59-b89f-aa8602ee9e07")
 		)
-		(pin "V_USB" input
-			(at 114.3 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0eca61ef-26a7-4dec-aedb-4b4ebe5b4119")
-		)
 		(pin "ButtonForward" input
 			(at 172.72 86.36 0)
 			(effects
@@ -898,7 +1036,7 @@
 			(uuid "d12941eb-d595-400c-887a-c386bfdd7759")
 		)
 		(pin "ScrollWheelOpto1" input
-			(at 114.3 93.98 180)
+			(at 114.3 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +1046,7 @@
 			(uuid "76afd2f6-f23b-45cc-b996-28818d6216a6")
 		)
 		(pin "ScrollWheelOpto0" input
-			(at 114.3 91.44 180)
+			(at 114.3 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +1056,7 @@
 			(uuid "09e8d5a9-eccd-4e51-8150-c54469d46ecd")
 		)
 		(pin "~{RESET}" output
-			(at 114.3 116.84 180)
+			(at 114.3 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,27 +1065,17 @@
 			)
 			(uuid "2b611738-ec15-437a-81f2-e3fc1bb68c62")
 		)
-		(pin "ADNS_SDIO" bidirectional
-			(at 114.3 109.22 180)
+		(pin "3V3" input
+			(at 114.3 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1e45f866-5136-476e-891d-63173ce956a1")
+			(uuid "1504b095-b37b-4e76-9965-0ca2d7789db3")
 		)
-		(pin "ADNS_~{CS}" output
-			(at 114.3 106.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2ebf8c27-c0d3-4d21-aa1d-617b327f4a29")
-		)
-		(pin "ADNS_SCLK" output
+		(pin "MOTION" input
 			(at 114.3 111.76 180)
 			(effects
 				(font
@@ -955,7 +1083,47 @@
 				)
 				(justify left)
 			)
-			(uuid "064601e3-cc0e-4a95-8804-8f7c84d09d12")
+			(uuid "21e74298-e2e3-4a0a-89f1-790bbdf4e89e")
+		)
+		(pin "MISO" input
+			(at 114.3 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "570f5c3d-23e6-4e43-b738-0b06d8ccf92d")
+		)
+		(pin "SCLK" output
+			(at 114.3 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d4bf9b4-4f19-4c67-8786-e71bb7aaca21")
+		)
+		(pin "MOSI" output
+			(at 114.3 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60ceb8b7-3619-44f0-a550-de99f9a0cccf")
+		)
+		(pin "~{CS}" output
+			(at 114.3 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "374e2fd5-da78-400a-97d8-120879d11c1d")
 		)
 		(instances
 			(project "Mini"
