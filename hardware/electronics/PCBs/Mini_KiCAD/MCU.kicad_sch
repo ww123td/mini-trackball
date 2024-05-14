@@ -144,6 +144,174 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1749,273 +1917,6 @@
 				)
 			)
 		)
-		(symbol "Mini-altium-import:MCU_0_ECS-160-12-30B-AGM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "16MHz Crystal 12pF 100 Ohms 4-SMD, No Lead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LFXTAL055663BULK*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCU_0_ECS-160-12-30B-AGM_1_0"
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -6.35 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 74 134 232 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 2.54) (xy -5.08 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 74 134 232 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 74 134 232 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 -2.54) (xy -5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 74 134 232 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 -2.032) (xy -6.096 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 74 134 232 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 -1.524) (xy -6.604 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 74 134 232 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 5.08 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.778) (xy 0 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -5.08 0) (xy -5.08 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 74 134 232 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy -0.254 -1.016) (xy -0.254 1.016) (xy 5.334 1.016) (xy 5.334 -1.016) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "16MHz"
-					(at 0 -1.016 0)
-					(effects
-						(font
-							(size 0.889 0.889)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 3.175)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 3.175)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mini-altium-import:MCU_0_HEADER2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2278,6 +2179,12 @@
 		(uuid "0380b25b-6964-423f-aca7-6e002cc8b9b0")
 	)
 	(junction
+		(at 85.09 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0490f59e-2fbb-4caf-b22e-133cccd1bcb2")
+	)
+	(junction
 		(at 187.96 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2416,12 +2323,6 @@
 		(uuid "a0e24fc8-1304-4d6c-a090-4f462ce17468")
 	)
 	(junction
-		(at 87.63 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6875736-0630-4561-ac6c-6d3d7bb1fd36")
-	)
-	(junction
 		(at 222.25 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2458,16 +2359,16 @@
 		(uuid "dd5629a1-a2e4-4be4-bb54-2d209ae582f3")
 	)
 	(junction
+		(at 85.09 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df82d034-554e-4bd4-9e9a-65ab8ce9b263")
+	)
+	(junction
 		(at 222.25 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dffc17e5-b84b-4d79-99cf-437266be786b")
-	)
-	(junction
-		(at 87.63 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e96f809f-ef3a-4b4e-9f43-7e4d23d1a339")
 	)
 	(junction
 		(at 222.25 172.72)
@@ -2982,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 151.13) (xy 85.09 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523efa50-65c5-41ff-8e4b-e3f95cbde4f7")
+	)
+	(wire
+		(pts
 			(xy 167.64 86.36) (xy 167.64 88.9)
 		)
 		(stroke
@@ -3029,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "5ade2353-ad6b-4fe1-87d7-0b34cc78c6be")
+	)
+	(wire
+		(pts
+			(xy 85.09 142.24) (xy 85.09 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602fb873-175b-4e7d-bac0-943d9fb9c587")
 	)
 	(wire
 		(pts
@@ -3403,6 +3324,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 142.24) (xy 87.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bcd92b-5132-46ac-bf65-07de061bd7f4")
+	)
+	(wire
+		(pts
+			(xy 85.09 152.4) (xy 87.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c9c7e3-2890-4acc-9633-cda727f406ba")
+	)
+	(wire
+		(pts
 			(xy 113.03 95.25) (xy 113.03 114.3)
 		)
 		(stroke
@@ -3714,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 142.24) (xy 87.63 142.24)
+			(xy 72.39 142.24) (xy 85.09 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3814,7 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 152.4) (xy 87.63 152.4)
+			(xy 72.39 152.4) (xy 85.09 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4609,7 +4550,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.182 72.136 90)
 			(effects
 				(font
@@ -4660,8 +4601,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:MCU_0_ECS-160-12-30B-AGM")
-		(at 85.09 147.32 0)
+		(lib_id "Device:Crystal")
+		(at 85.09 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4669,7 +4610,7 @@
 		(dnp no)
 		(uuid "1e24963b-8e6a-457f-a293-ed4fc71a1812")
 		(property "Reference" "MCU.Y.2"
-			(at 90.678 147.066 0)
+			(at 96.266 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,8 +4618,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ECS-160-12-30B-AGM"
-			(at 90.678 149.606 0)
+		(property "Value" "RH100-12.000-16-3030"
+			(at 113.538 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 147.32 0)
 			(effects
 				(font
@@ -4704,7 +4645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal"
 			(at 85.09 147.32 0)
 			(effects
 				(font
@@ -4714,7 +4655,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 74.422 141.732 0)
+			(at 79.502 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4665,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 74.422 139.192 0)
+			(at 76.962 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4675,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "XC2686CT-ND"
-			(at 74.422 141.732 0)
+			(at 79.502 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4685,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "520-160-12-30B-AGMT"
-			(at 74.422 139.192 0)
+			(at 76.962 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,12 +4696,6 @@
 		)
 		(pin "1"
 			(uuid "214ce7d8-1d1b-43f1-9ba7-f19d2d8707da")
-		)
-		(pin "4"
-			(uuid "1c8efdb7-d99f-49a9-9b7e-3b18df3a9af8")
-		)
-		(pin "3"
-			(uuid "ef05fce5-bf95-4ee9-8e36-b49c458c8832")
 		)
 		(pin "2"
 			(uuid "7ab049ff-fde6-4317-99fd-48ec576c9892")
@@ -5012,7 +4947,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.182 41.656 90)
 			(effects
 				(font
@@ -5378,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.182 49.276 90)
 			(effects
 				(font
@@ -5877,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.436 27.686 90)
 			(effects
 				(font
@@ -5913,10 +5848,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "347691be-2a3a-47ee-a19e-fef9151016ce")
+			(uuid "347691be-2a3a-47ee-a19e-fef9151016cf")
 		)
 		(pin "1"
-			(uuid "abe70303-9b7a-430f-baea-0da7ad5309ab")
+			(uuid "abe70303-9b7a-430f-baea-0da7ad5309ac")
 		)
 		(instances
 			(project "Mini"
@@ -6379,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.182 56.896 90)
 			(effects
 				(font
@@ -6511,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.182 64.516 90)
 			(effects
 				(font
@@ -6838,7 +6773,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.182 34.036 90)
 			(effects
 				(font
@@ -6905,7 +6840,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100nF"
 			(at 186.182 78.486 90)
 			(effects
 				(font
@@ -7204,10 +7139,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5cd0df6f-b7cb-420c-a303-1794f660e64c")
+			(uuid "5cd0df6f-b7cb-420c-a303-1794f660e64d")
 		)
 		(pin "1"
-			(uuid "6eb269e8-5030-4b71-975c-967592ca98c3")
+			(uuid "6eb269e8-5030-4b71-975c-967592ca98c4")
 		)
 		(instances
 			(project "Mini"
@@ -7292,7 +7227,7 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "100pF 100V"
+		(property "ALTIUM_VALUE" "100nF 100V"
 			(at 29.972 116.078 0)
 			(effects
 				(font
