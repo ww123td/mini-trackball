@@ -1,0 +1,231 @@
+(footprint "6x2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 -1.589 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4b518fd0-0c41-4319-bc2d-3bfb9a9dbf06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "6x2"
+		(at 1.27 6.669 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "28b5a123-fa5e-449b-9285-d015eb257120")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "6x2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a5962d0-64a4-46c5-b679-fcf2dbba1bb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5219e3fb-0ff2-4c42-b721-0d0c218aebcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "221269c9-aafb-4fdd-b678-e7ab3fddf468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 4.1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "8597983f-5fe4-467d-b012-c97ba938e787")
+	)
+	(fp_line
+		(start -1.5 6.6)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "80945688-69e9-47ba-af36-00ccd0b94d80")
+	)
+	(fp_line
+		(start -1.5 6.6)
+		(end 4.1 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "fd45489a-e3d2-4fe1-b9ac-d76453417c82")
+	)
+	(fp_line
+		(start 4.1 6)
+		(end 4.1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "63abcc46-a4b2-4825-8708-e871be839ace")
+	)
+	(fp_line
+		(start 4.1 6.6)
+		(end 4.1 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "023b7ba5-52a0-4fcc-90d4-66d1b0001b0f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.6 5.7 90)
+		(unlocked yes)
+		(layer "Eco2.User")
+		(uuid "09223cba-ff19-486d-b7c7-f7f3f6f99ed3")
+		(effects
+			(font
+				(face "Avenir LT 45 Book")
+				(size 0.75 0.75)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 90
+			(polygon
+				(pts
+					(xy 1.4725 5.172984) (xy 1.162189 5.354518) (xy 1.162189 5.503628) (xy 1.4725 5.503628) (xy 1.4725 5.59815)
+					(xy 0.722185 5.59815) (xy 0.722185 5.396467) (xy 0.798756 5.396467) (xy 0.798756 5.503628) (xy 1.085619 5.503628)
+					(xy 1.085619 5.391338) (xy 1.083831 5.353713) (xy 1.077408 5.31651) (xy 1.064599 5.282047) (xy 1.04825 5.257981)
+					(xy 1.018402 5.234098) (xy 0.984056 5.220989) (xy 0.947271 5.216196) (xy 0.93834 5.216032) (xy 0.899248 5.219524)
+					(xy 0.863935 5.231596) (xy 0.834968 5.254833) (xy 0.830812 5.260179) (xy 0.812561 5.296119) (xy 0.803264 5.334024)
+					(xy 0.799256 5.374141) (xy 0.798756 5.396467) (xy 0.722185 5.396467) (xy 0.722185 5.391338) (xy 0.723487 5.349445)
+					(xy 0.727391 5.31112) (xy 0.735512 5.269842) (xy 0.747381 5.233703) (xy 0.765965 5.198036) (xy 0.775491 5.184891)
+					(xy 0.801327 5.15891) (xy 0.832352 5.13931) (xy 0.868567 5.126092) (xy 0.90997 5.119255) (xy 0.935959 5.118213)
+					(xy 0.974907 5.120832) (xy 1.012014 5.129664) (xy 1.03616 5.140378) (xy 1.068086 5.161961) (xy 1.093982 5.188243)
+					(xy 1.100273 5.196615) (xy 1.120406 5.229362) (xy 1.135468 5.26372) (xy 1.137093 5.268422) (xy 1.4725 5.062709)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.4725 4.526352) (xy 1.4725 4.945289) (xy 0.722185 4.945289) (xy 0.722185 4.526352) (xy 0.798756 4.526352)
+					(xy 0.798756 4.850767) (xy 1.04422 4.850767) (xy 1.04422 4.545219) (xy 1.12079 4.545219) (xy 1.12079 4.850767)
+					(xy 1.395929 4.850767) (xy 1.395929 4.526352)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.4725 4.267515) (xy 1.4725 4.362037) (xy 0.722185 4.362037) (xy 0.722185 3.9431) (xy 0.798756 3.9431)
+					(xy 0.798756 4.267515) (xy 1.073895 4.267515) (xy 1.073895 3.963066) (xy 1.150465 3.963066) (xy 1.150465 4.267515)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.675291 3.581315) (xy 0.877158 3.602381) (xy 0.820554 3.400697) (xy 0.917274 3.386043) (xy 0.933028 3.5793)
+					(xy 1.099357 3.45437) (xy 1.148817 3.544678) (xy 0.964535 3.633888) (xy 1.148817 3.714672) (xy 1.099357 3.808094)
+					(xy 0.933028 3.685362) (xy 0.917274 3.876421) (xy 0.820554 3.861767) (xy 0.877158 3.662281) (xy 0.675291 3.684263)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.675291 3.003192) (xy 0.877158 3.024258) (xy 0.820554 2.822575) (xy 0.917274 2.80792) (xy 0.933028 3.001177)
+					(xy 1.099357 2.876247) (xy 1.148817 2.966556) (xy 0.964535 3.055765) (xy 1.148817 3.136549) (xy 1.099357 3.229972)
+					(xy 0.933028 3.10724) (xy 0.917274 3.298299) (xy 0.820554 3.283644) (xy 0.877158 3.084159) (xy 0.675291 3.10614)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(thermal_bridge_angle 45)
+		(uuid "da640edb-1f34-4589-920d-209f89f8886b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(uuid "8e75223e-57ab-4999-a005-49e0d6d18f87")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.54)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(uuid "690310eb-f4d1-4beb-8f95-e517f5263dfa")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(uuid "67a26891-dc08-4681-a219-fbe6a1006685")
+	)
+	(pad "5" thru_hole circle
+		(at 0 5.08)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(uuid "43277064-0b2a-4a4f-80d3-32e5ad4625ec")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 5.08)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(uuid "0bd8baf9-2d4f-4d7f-b484-65d76f07d097")
+	)
+)

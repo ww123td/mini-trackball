@@ -144,27 +144,28 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
+		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 1.27 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND24_Small"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -185,7 +186,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -212,12 +213,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND24_Small_0_1"
 				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
 					(stroke
-						(width 0.3048)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -226,7 +227,31 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 0)
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -238,31 +263,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0)
@@ -273,9 +274,9 @@
 					)
 				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND24_Small_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at -2.54 0 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -287,14 +288,14 @@
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.635)
 					(name "2"
 						(effects
 							(font
@@ -305,7 +306,43 @@
 					(number "2"
 						(effects
 							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -2203,6 +2240,12 @@
 		(uuid "27d5fff5-440f-4f06-9cd4-06bddb91a8c4")
 	)
 	(junction
+		(at 80.01 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351d2cb4-9c10-4b09-9875-86c3ac49d2bb")
+	)
+	(junction
 		(at 113.03 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2219,12 +2262,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e68821a-ec81-42f3-b86d-19d6007dd7cd")
-	)
-	(junction
-		(at 74.93 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "484d09b2-e828-44b1-8d36-6b433a79dfca")
 	)
 	(junction
 		(at 222.25 149.86)
@@ -2293,16 +2330,16 @@
 		(uuid "8fb0633d-3aeb-444e-b346-7650d1964995")
 	)
 	(junction
-		(at 222.25 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "950d728d-5c86-4996-9ac4-68ca244e1561")
-	)
-	(junction
 		(at 222.25 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "967db4f7-58b2-447c-bb43-8f229fb3b0a5")
+	)
+	(junction
+		(at 74.93 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c86da6b-c127-4af4-8117-14218cb0ba84")
 	)
 	(junction
 		(at 162.56 85.09)
@@ -2345,6 +2382,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b11c110a-f5ad-4bca-b2ca-53a93b66907c")
+	)
+	(junction
+		(at 222.25 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b523e785-7267-4f46-b1b0-c3d631bc8d5e")
 	)
 	(junction
 		(at 165.1 85.09)
@@ -2438,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 147.32) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0336becd-8e68-4aa5-895d-7d3fe6bcdeff")
+	)
+	(wire
+		(pts
 			(xy 170.18 86.36) (xy 172.72 86.36)
 		)
 		(stroke
@@ -2508,6 +2561,16 @@
 			(type default)
 		)
 		(uuid "0a8f0dec-90ea-4465-91d3-29ea9f7cdc24")
+	)
+	(wire
+		(pts
+			(xy 87.63 147.32) (xy 87.63 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c81f47f-dbd0-400b-947d-948270410825")
 	)
 	(wire
 		(pts
@@ -2591,6 +2654,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 151.13) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2088eddd-9ee1-465f-85b4-5a6a850c5fdb")
+	)
+	(wire
+		(pts
 			(xy 162.56 85.09) (xy 165.1 85.09)
 		)
 		(stroke
@@ -2631,6 +2704,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 149.86) (xy 85.09 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27407831-2561-40c3-b8ac-6914aa149509")
+	)
+	(wire
+		(pts
 			(xy 187.96 50.8) (xy 172.72 50.8)
 		)
 		(stroke
@@ -2659,16 +2742,6 @@
 			(type default)
 		)
 		(uuid "3049c3c8-e3f3-4a3e-81f5-bb42db73ed76")
-	)
-	(wire
-		(pts
-			(xy 200.66 114.3) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "30ceaffc-1ee0-4af2-8a6c-70503d758be1")
 	)
 	(wire
 		(pts
@@ -2753,16 +2826,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 121.92) (xy 222.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41742bc3-cfd9-4b4e-b51e-67b9aa8bd187")
-	)
-	(wire
-		(pts
 			(xy 175.26 58.42) (xy 175.26 86.36)
 		)
 		(stroke
@@ -2823,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 147.32) (xy 74.93 144.78)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "4a61a3ad-657c-4855-a63e-cc8461f04f5d")
-	)
-	(wire
-		(pts
 			(xy 138.43 129.54) (xy 144.78 129.54)
 		)
 		(stroke
@@ -2883,16 +2936,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 151.13) (xy 85.09 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "523efa50-65c5-41ff-8e4b-e3f95cbde4f7")
-	)
-	(wire
-		(pts
 			(xy 167.64 86.36) (xy 167.64 88.9)
 		)
 		(stroke
@@ -2933,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 114.3) (xy 222.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594d1744-4085-41e3-8867-2eeab856971a")
+	)
+	(wire
+		(pts
 			(xy 180.34 73.66) (xy 180.34 86.36)
 		)
 		(stroke
@@ -2940,16 +2993,6 @@
 			(type default)
 		)
 		(uuid "5ade2353-ad6b-4fe1-87d7-0b34cc78c6be")
-	)
-	(wire
-		(pts
-			(xy 85.09 142.24) (xy 85.09 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602fb873-175b-4e7d-bac0-943d9fb9c587")
 	)
 	(wire
 		(pts
@@ -3020,6 +3063,16 @@
 			(type default)
 		)
 		(uuid "68d8b787-ca47-424d-af24-7eed4d9fc131")
+	)
+	(wire
+		(pts
+			(xy 80.01 147.32) (xy 82.55 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2d8941-0b0e-4a0f-bc16-68c7e43380f3")
 	)
 	(polyline
 		(pts
@@ -3134,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 111.76) (xy 222.25 116.84)
+			(xy 222.25 111.76) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3321,6 +3374,16 @@
 			(type default)
 		)
 		(uuid "a2bdb300-4ab7-4f3b-9980-7c909d61df98")
+	)
+	(wire
+		(pts
+			(xy 200.66 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a67da2e4-3cb5-4309-9869-205d3fcaccc2")
 	)
 	(wire
 		(pts
@@ -3525,16 +3588,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 104.14) (xy 200.66 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d66d33-b18d-4c86-ae19-2819e59bb08c")
-	)
-	(wire
-		(pts
 			(xy 193.04 43.18) (xy 201.93 43.18)
 		)
 		(stroke
@@ -3615,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 116.84) (xy 222.25 121.92)
+			(xy 222.25 116.84) (xy 222.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3655,6 +3708,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 151.13) (xy 80.01 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc85ebde-84fb-4d7b-810e-7fdffb25131a")
+	)
+	(wire
+		(pts
 			(xy 72.39 142.24) (xy 85.09 142.24)
 		)
 		(stroke
@@ -3672,16 +3735,6 @@
 			(type default)
 		)
 		(uuid "e0324118-1d1b-4a7d-8224-8b16e2830d62")
-	)
-	(wire
-		(pts
-			(xy 222.25 121.92) (xy 222.25 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1acc062-cf6a-466b-bfc5-c5073a8f6aa9")
 	)
 	(wire
 		(pts
@@ -3735,6 +3788,26 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 114.3) (xy 222.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0125c1-3410-43fa-a991-3ddcea7c31dd")
+	)
+	(wire
+		(pts
+			(xy 203.2 121.92) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb236693-02f0-4322-8107-b73712ec563e")
+	)
+	(wire
+		(pts
 			(xy 222.25 154.94) (xy 222.25 157.48)
 		)
 		(stroke
@@ -3742,6 +3815,16 @@
 			(type default)
 		)
 		(uuid "ebdd9609-fc78-48f2-a1f1-cf8f34cf7385")
+	)
+	(wire
+		(pts
+			(xy 85.09 142.24) (xy 85.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee67bb40-5e95-46fb-9740-21c949e7b2bd")
 	)
 	(wire
 		(pts
@@ -4054,17 +4137,6 @@
 		)
 		(uuid "d7036b09-9451-4fa9-8d53-e7a3b0a8c138")
 	)
-	(label "MOSI"
-		(at 200.66 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ba56920-555d-4e21-95fb-b56a9f45f209")
-	)
 	(label "3V3"
 		(at 44.45 109.22 0)
 		(fields_autoplaced yes)
@@ -4097,6 +4169,17 @@
 			(justify left bottom)
 		)
 		(uuid "68022371-4b90-494c-8daf-1c340400f8c5")
+	)
+	(label "MOSI"
+		(at 200.66 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ba0b9ec-06a0-4f10-b4e8-6107b97f91a9")
 	)
 	(label "3V3"
 		(at 137.16 86.36 180)
@@ -4247,6 +4330,18 @@
 		)
 		(uuid "625b6d92-2c4a-4ae4-8509-02fc35fddd9f")
 	)
+	(hierarchical_label "ButtonRightClick"
+		(shape input)
+		(at 203.2 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8767ce38-be1b-4359-95c2-0ad010708b95")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 182.88 83.82 90)
@@ -4309,7 +4404,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape output)
-		(at 208.28 114.3 0)
+		(at 208.28 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4317,19 +4412,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c83f07d4-48fd-4d3c-818b-3c5565a5027f")
-	)
-	(hierarchical_label "ButtonRightClick"
-		(shape input)
-		(at 201.93 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de66bbdc-1c8a-4387-a53f-4cad69453790")
+		(uuid "c7f6ee15-6ac2-4ac5-950a-b05b94600774")
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
@@ -4558,7 +4641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 73.66 0)
 			(effects
 				(font
@@ -4601,8 +4684,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 85.09 147.32 90)
+		(lib_id "Device:Crystal_GND24_Small")
+		(at 85.09 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4610,7 +4693,7 @@
 		(dnp no)
 		(uuid "1e24963b-8e6a-457f-a293-ed4fc71a1812")
 		(property "Reference" "MCU.Y.2"
-			(at 96.266 145.034 90)
+			(at 88.9 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4702,7 @@
 			)
 		)
 		(property "Value" "RH100-12.000-16-3030"
-			(at 113.538 147.32 90)
+			(at 88.9 146.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 85.09 147.32 0)
 			(effects
 				(font
@@ -4655,7 +4738,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 79.502 157.988 0)
+			(at 90.678 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4748,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 76.962 157.988 0)
+			(at 93.218 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4758,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "XC2686CT-ND"
-			(at 79.502 157.988 0)
+			(at 90.678 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4768,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "520-160-12-30B-AGMT"
-			(at 76.962 157.988 0)
+			(at 93.218 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,6 +4782,12 @@
 		)
 		(pin "2"
 			(uuid "7ab049ff-fde6-4317-99fd-48ec576c9892")
+		)
+		(pin "3"
+			(uuid "98e94766-b393-4f98-aaea-5ccd582752b2")
+		)
+		(pin "4"
+			(uuid "d5786029-aea2-4885-a41b-761aa7071a68")
 		)
 		(instances
 			(project "Mini"
@@ -4955,7 +5044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 43.18 0)
 			(effects
 				(font
@@ -5189,7 +5278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 22.86 0)
 			(effects
 				(font
@@ -5321,7 +5410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -5453,7 +5542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -5820,7 +5909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 29.21 0)
 			(effects
 				(font
@@ -6322,7 +6411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -6454,7 +6543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -6848,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 190.5 80.01 0)
 			(effects
 				(font

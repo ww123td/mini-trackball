@@ -1,0 +1,78 @@
+(footprint "M4-NOCOPPER"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "55df9105-bb36-4f91-b6a9-819165afad22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M4-NOCOPPER"
+		(at 0 2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71d99aad-2650-4d62-8158-8dea37280983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "M4-NOCOPPER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88634f44-0469-4a50-8153-3caca056f6e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f51e0586-b8c7-44ba-a988-6b15a5272e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58e5336a-bd19-4402-9925-e5af64558eb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 0 0)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin -99)
+		(uuid "55d794e8-71a3-4568-9329-467edc8b90d6")
+	)
+)

@@ -3452,7 +3452,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Diodes.PcbLib:PESD3V3S4UD - SOT95P275X110-6N"
+		(property "Footprint" "Diodes:PESD3V3S4UD - SOT95P275X110-6N"
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -3842,7 +3842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 203.2 67.31 0)
 			(effects
 				(font

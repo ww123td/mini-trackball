@@ -1,0 +1,88 @@
+(footprint "2x1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.589 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb1b3e8b-74d6-42d4-91cf-557cf8ac38e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2x1"
+		(at 0 4.129 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58c30fb5-6069-4d74-9d18-02d15d1ca5af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "2x1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4ea6a6d-1e6a-4337-b394-b9f9c08a3350")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f83f2083-0964-4c6d-87e6-77dedcaa7825")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64d48cef-ab5f-4d6a-a194-65b25b81d2c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(thermal_bridge_angle 45)
+		(uuid "8356d456-e0e1-45f2-90e5-c597652a7ad4")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -99)
+		(uuid "d373022b-35b8-424e-a471-2860a8ad759d")
+	)
+)

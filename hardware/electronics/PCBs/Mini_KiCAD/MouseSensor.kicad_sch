@@ -2060,7 +2060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 88.9 109.22 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805"
+		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
 			(at 74.93 109.22 0)
 			(effects
 				(font

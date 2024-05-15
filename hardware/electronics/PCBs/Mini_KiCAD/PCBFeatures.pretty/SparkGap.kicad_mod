@@ -1,0 +1,87 @@
+(footprint "SparkGap"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.41842 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "67767a82-7498-44a7-b930-6d22b0d5267d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SparkGap"
+		(at 0 1.41842 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99409e65-0eaa-4f72-8836-2f14ab60d79a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SparkGap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "700d48a5-390b-452e-9e7f-2f963f38fb04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3abfe2e9-2b5c-458f-86cc-a6ef6f274b30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57678417-a04b-48e7-b720-d72db8b10db7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0 45)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin -2.5146)
+		(thermal_bridge_angle 45)
+		(uuid "498c8be6-49d4-443e-8ee7-7496ab960500")
+	)
+	(pad "1" smd rect
+		(at 0 0 45)
+		(size 1.016 1.016)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin -2.5146)
+		(thermal_bridge_angle 45)
+		(uuid "8c293062-1f06-42a0-b53e-2c1305b5b946")
+	)
+)

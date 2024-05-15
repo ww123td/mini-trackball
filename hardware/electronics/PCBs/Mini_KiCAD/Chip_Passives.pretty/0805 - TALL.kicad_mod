@@ -1,0 +1,289 @@
+(footprint "0805 - TALL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Same as 0805 footprint, but solder mask is adjusted to leave more paste behind for tall (>0.9mm) components like big caps, which tend to be solder-starved on the regular footprint.")
+	(property "Reference" "REF**"
+		(at 0 -2.3024 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28dbbac0-ed73-4870-9181-f405ee0ae88c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0805 - TALL"
+		(at 0 2.3024 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db6af218-37d9-4e31-b9b0-d0070818779a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "0805 - TALL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dbcc5e0-f2af-42a8-8e56-ec3e2222fcd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd26e219-8f02-4c46-bcf3-fd02b5362e49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc31a0ea-7f13-440d-8e67-1cffc5062d31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.05 -1.825)
+		(end 1.05 -1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "eeb71afd-a74b-42f1-91f3-c70fa46c8eb5")
+	)
+	(fp_line
+		(start -1.05 -1.825)
+		(end 1.05 -1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "f82a9385-cf10-418a-9886-dc480d5d630d")
+	)
+	(fp_line
+		(start -1.05 1.825)
+		(end -1.05 -1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "222e3e2d-e94a-46a5-bc75-6ce490a1febf")
+	)
+	(fp_line
+		(start -1.05 1.825)
+		(end -1.05 -1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "c91fc7a4-bc9c-4e8e-bac5-fe21acd6c32b")
+	)
+	(fp_line
+		(start -1.05 1.825)
+		(end 1.05 1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "4c25db48-4079-4067-b3b9-db4796003b70")
+	)
+	(fp_line
+		(start -1.05 1.825)
+		(end 1.05 1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "86489868-fbdf-4a9b-bfba-7b5e1fb3f896")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7b62f48a-e262-4fb0-a933-08315d6d8780")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "e2ad45b5-a643-46e0-95f0-c9a422377cb1")
+	)
+	(fp_line
+		(start 1.05 1.825)
+		(end 1.05 -1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "9b2e885e-fa7f-4ffc-885f-714ea12287bc")
+	)
+	(fp_line
+		(start 1.05 1.825)
+		(end 1.05 -1.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "fe6a5e0d-e9e7-403f-ba6d-56dc8b501010")
+	)
+	(fp_line
+		(start -0.725 -1.1)
+		(end 0.725 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "637a9449-d207-4a16-957f-d4227ff3b17e")
+	)
+	(fp_line
+		(start -0.725 1.1)
+		(end -0.725 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "314dd7a2-17ec-4802-8594-90ad6e4e7436")
+	)
+	(fp_line
+		(start -0.725 1.1)
+		(end 0.725 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "fe6c6310-d4ef-4301-b61d-1cf8e1a12adc")
+	)
+	(fp_line
+		(start 0.725 1.1)
+		(end 0.725 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "7e647171-67eb-46de-a00f-42b23c698d3d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 1.6 90)
+		(unlocked yes)
+		(layer "Eco2.User")
+		(uuid "e355a6db-adb7-46c9-a2d9-c59b63b4f8a4")
+		(effects
+			(font
+				(face "Avenir LT 45 Book")
+				(size 0.45 0.45)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 90
+			(polygon
+				(pts
+					(xy 0.1235 1.28379) (xy -0.062686 1.392711) (xy -0.062686 1.482177) (xy 0.1235 1.482177) (xy 0.1235 1.53889)
+					(xy -0.326688 1.53889) (xy -0.326688 1.41788) (xy -0.280746 1.41788) (xy -0.280746 1.482177) (xy -0.108628 1.482177)
+					(xy -0.108628 1.414802) (xy -0.109701 1.392228) (xy -0.113554 1.369906) (xy -0.12124 1.349228)
+					(xy -0.131049 1.334788) (xy -0.148958 1.320459) (xy -0.169566 1.312593) (xy -0.191637 1.309717)
+					(xy -0.196995 1.309619) (xy -0.22045 1.311714) (xy -0.241638 1.318957) (xy -0.259019 1.3329) (xy -0.261512 1.336107)
+					(xy -0.272462 1.357671) (xy -0.278041 1.380414) (xy -0.280445 1.404485) (xy -0.280746 1.41788)
+					(xy -0.326688 1.41788) (xy -0.326688 1.414802) (xy -0.325907 1.389667) (xy -0.323565 1.366672)
+					(xy -0.318692 1.341905) (xy -0.311571 1.320222) (xy -0.30042 1.298821) (xy -0.294704 1.290935)
+					(xy -0.279203 1.275346) (xy -0.260588 1.263586) (xy -0.238859 1.255655) (xy -0.214017 1.251553)
+					(xy -0.198424 1.250928) (xy -0.175055 1.252499) (xy -0.152791 1.257798) (xy -0.138303 1.264227)
+					(xy -0.119147 1.277177) (xy -0.10361 1.292946) (xy -0.099835 1.297969) (xy -0.087755 1.317617)
+					(xy -0.078718 1.338232) (xy -0.077743 1.341053) (xy 0.1235 1.217625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.1235 0.895811) (xy 0.1235 1.147173) (xy -0.326688 1.147173) (xy -0.326688 0.895811) (xy -0.280746 0.895811)
+					(xy -0.280746 1.09046) (xy -0.133467 1.09046) (xy -0.133467 0.907131) (xy -0.087525 0.907131) (xy -0.087525 1.09046)
+					(xy 0.077557 1.09046) (xy 0.077557 0.895811)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.1235 0.740509) (xy 0.1235 0.797222) (xy -0.326688 0.797222) (xy -0.326688 0.54586) (xy -0.280746 0.54586)
+					(xy -0.280746 0.740509) (xy -0.115662 0.740509) (xy -0.115662 0.55784) (xy -0.06972 0.55784) (xy -0.06972 0.740509)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.354825 0.328789) (xy -0.233705 0.341428) (xy -0.267667 0.220418) (xy -0.209635 0.211625)
+					(xy -0.200182 0.32758) (xy -0.100385 0.252622) (xy -0.070709 0.306807) (xy -0.181278 0.360333)
+					(xy -0.070709 0.408803) (xy -0.100385 0.464856) (xy -0.200182 0.391217) (xy -0.209635 0.505853)
+					(xy -0.267667 0.49706) (xy -0.233705 0.377369) (xy -0.354825 0.390558)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.354825 -0.018084) (xy -0.233705 -0.005444) (xy -0.267667 -0.126454) (xy -0.209635 -0.135247)
+					(xy -0.200182 -0.019293) (xy -0.100385 -0.094251) (xy -0.070709 -0.040066) (xy -0.181278 0.013459)
+					(xy -0.070709 0.061929) (xy -0.100385 0.117983) (xy -0.200182 0.044344) (xy -0.209635 0.158979)
+					(xy -0.267667 0.150186) (xy -0.233705 0.030495) (xy -0.354825 0.043684)
+				)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -1.0524)
+		(size 1.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 45)
+		(uuid "090dfd55-a632-492f-9ec1-5fe03a1311f5")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.0524)
+		(size 1.6 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.04)
+		(thermal_bridge_angle 45)
+		(uuid "5c32caac-b63b-467d-8c95-5fa71caeb81d")
+	)
+)

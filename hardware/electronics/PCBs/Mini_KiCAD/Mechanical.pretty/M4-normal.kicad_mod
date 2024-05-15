@@ -1,0 +1,77 @@
+(footprint "M4-normal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "df5f675b-725b-4b7f-9ab2-a309c13148eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M4-normal"
+		(at 0 4.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c04fb205-4815-4ed1-8bae-fcc3308241b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "M4-normal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9935006f-c4cb-4069-a283-9329bb1b9302")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a10d3fbd-e716-44ff-aad4-3e6919923da2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cf8f19e-1069-4461-99db-4667abd1a068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7 7)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b51b5274-990b-4f47-a0b0-c7a7c432e068")
+	)
+)

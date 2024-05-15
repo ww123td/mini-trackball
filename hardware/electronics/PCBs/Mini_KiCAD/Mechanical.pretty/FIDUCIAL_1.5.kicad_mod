@@ -1,0 +1,118 @@
+(footprint "FIDUCIAL_1.5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.025 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "58a5c952-918c-4533-89a7-3dc35b106c87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FIDUCIAL_1.5"
+		(at 0 2.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8040b3cb-d11e-44ca-b264-5bb94c34eec7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "FIDUCIAL_1.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7eda8d37-23fa-462d-b312-851e11ffe8d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "599c2df4-4ee7-4cc3-bb4b-1beaf08d2303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22620b01-36b9-495c-9b58-48ba877bc5b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.762)
+		(solder_paste_margin -1.524)
+		(uuid "1a9ed809-fbfd-4556-8eef-5554d783695a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "22d7f7f4-15b4-4aaf-ae0d-8f1ecae40e67")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.230084 -1.30487) (xy 0.453177 -1.245093) (xy 0.6625 -1.147484) (xy 0.851694 -1.015009) (xy 1.015009 -0.851694)
+				(xy 1.147484 -0.6625) (xy 1.245093 -0.453177) (xy 1.30487 -0.230084) (xy 1.325 0) (xy 1.30487 0.230084)
+				(xy 1.245093 0.453177) (xy 1.147484 0.6625) (xy 1.015009 0.851694) (xy 0.851694 1.015009) (xy 0.6625 1.147484)
+				(xy 0.453177 1.245093) (xy 0.230084 1.30487) (xy 0 1.325) (xy -0.230084 1.30487) (xy -0.453177 1.245093)
+				(xy -0.6625 1.147484) (xy -0.851694 1.015009) (xy -1.015009 0.851694) (xy -1.147484 0.6625) (xy -1.245093 0.453177)
+				(xy -1.30487 0.230084) (xy -1.325 0) (xy -0.779904 0) (xy -0.76035 0.173545) (xy -0.702669 0.338388)
+				(xy -0.609754 0.486262) (xy -0.486262 0.609754) (xy -0.338388 0.702669) (xy -0.173545 0.76035) (xy 0 0.779904)
+				(xy 0.173545 0.76035) (xy 0.338388 0.702669) (xy 0.486262 0.609754) (xy 0.609754 0.486262) (xy 0.702669 0.338388)
+				(xy 0.76035 0.173545) (xy 0.779904 0) (xy 0.76035 -0.173545) (xy 0.702669 -0.338388) (xy 0.609754 -0.486262)
+				(xy 0.486262 -0.609754) (xy 0.338388 -0.702669) (xy 0.173545 -0.76035) (xy 0 -0.779904) (xy -0.173545 -0.76035)
+				(xy -0.338388 -0.702669) (xy -0.486262 -0.609754) (xy -0.609754 -0.486262) (xy -0.702669 -0.338388)
+				(xy -0.76035 -0.173545) (xy -0.779904 0) (xy -1.325 0) (xy -1.30487 -0.230084) (xy -1.245093 -0.453177)
+				(xy -1.147484 -0.6625) (xy -1.015009 -0.851694) (xy -0.851694 -1.015009) (xy -0.6625 -1.147484)
+				(xy -0.453177 -1.245093) (xy -0.230084 -1.30487) (xy 0 -1.325)
+			)
+		)
+	)
+)
