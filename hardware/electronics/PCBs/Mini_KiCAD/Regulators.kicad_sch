@@ -143,812 +143,6 @@
 				)
 			)
 		)
-		(symbol "Base-altium-import:REG_0_AP2202K-3.3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U3"
-				(at -7.62 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AP2202K-3.3"
-				(at -7.62 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PowerSupply:AP2202 - SOT95P270X145-5N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PNP-NZL" "2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-DX" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-DY" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-X" "2.9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-Y" "1.3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-A" "90"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-PT" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-W" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-THK" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-LV" "26"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TS" "90"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-LEVEL" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TYPE" "CHP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-VOFF" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-FEEDTYPE" "Tape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TAPEWIDTH" "8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-PLACEPRIORITY" "3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TAPEINDEX" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER 1" "Mouser"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 1" "621-AP2202K-3.3TRG1"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER 2" "Digi-Key"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 2" "AP2202K-3.3TRG1DICT-ND"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER 3" "Arrow"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 3" "PWagzdsTFFHKE_U17B45SP-NtndBrheJIaI5hB7gHD0ZVywxIBNyoAQstvnyfZZ0"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-DA" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*AP2202{space}-{space}SOT95P270X145-5N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "REG_0_AP2202K-3.3_1_0"
-				(rectangle
-					(start 10.16 7.62)
-					(end -7.62 -17.78)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -15.24 5.08 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -15.24 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -15.24 180)
-					(length 7.62)
-					(name "BYP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 5.08 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Base-altium-import:REG_0_AP2204K-1.8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at -7.62 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AP2204K-1.8"
-				(at -7.62 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PowerSupply:AP2202 - SOT95P270X145-5N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PNP-NZL" "2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-DX" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-DY" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-X" "2.9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-Y" "1.3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-A" "90"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-PT" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-W" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-THK" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-LV" "26"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TS" "90"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-LEVEL" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TYPE" "CHP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-VOFF" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-FEEDTYPE" "Tape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TAPEWIDTH" "8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-PLACEPRIORITY" "3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-TAPEINDEX" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PNP-DA" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER 1" "Digi-Key"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER 2" "Mouser"
-				(at -15.748 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 1" "AP2204K-1.8TRG1DICT-ND"
-				(at -15.748 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 2" "621-AP2204K-1.8TRG1"
-				(at -15.748 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*AP2202{space}-{space}SOT95P270X145-5N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "REG_0_AP2204K-1.8_1_0"
-				(rectangle
-					(start 10.16 7.62)
-					(end -7.62 -17.78)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -15.24 5.08 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -15.24 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -15.24 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 5.08 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mini-altium-import:MCU_1_Cap 0.1uF 100V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1243,6 +437,358 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:AP2204K-1.8"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2204K-1.8"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA low dropout linear regulator, wide input voltage range, 1.8V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2204K-1.8_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2204K-1.8_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:AP2204K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2204K-3.3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA low dropout linear regulator, wide input voltage range, 3.3V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2204K-3.3_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2204K-3.3_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 57.15 102.87)
@@ -1251,10 +797,10 @@
 		(uuid "00eea14b-5907-47eb-b463-99a7c3bcf01f")
 	)
 	(junction
-		(at 46.99 102.87)
+		(at 67.31 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1163c65c-e59d-4f64-a5a5-6ae3270bf093")
+		(uuid "2aead42f-0780-4975-adf9-b3a5641070c0")
 	)
 	(junction
 		(at 57.15 39.37)
@@ -1263,10 +809,10 @@
 		(uuid "4d298d77-586d-4ed3-8756-2e2ea2c947c1")
 	)
 	(junction
-		(at 46.99 59.69)
+		(at 57.15 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c63e119-de10-4860-9ad2-291df0c95f38")
+		(uuid "69f3f577-177c-475c-98a5-57eb6535d98c")
 	)
 	(junction
 		(at 133.35 39.37)
@@ -1275,19 +821,25 @@
 		(uuid "841580a0-29ce-48a2-8f80-e59db8520287")
 	)
 	(junction
+		(at 57.15 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaff5e55-cffa-412a-9697-5ee2a177f3cc")
+	)
+	(junction
 		(at 118.11 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abc58e7a-38f6-45e9-b49c-7fd4c5bedf30")
 	)
 	(junction
-		(at 57.15 113.03)
+		(at 68.58 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2c8bc2a-c57a-456c-a1f4-affc13b0ed32")
+		(uuid "afe59167-0db8-4bf5-ac8c-acb77ddc24a6")
 	)
 	(junction
-		(at 57.15 49.53)
+		(at 57.15 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b30ee3-8750-46d5-80dd-3aded340784d")
@@ -1310,10 +862,6 @@
 		(color 0 0 0 0)
 		(uuid "ff41fcf7-b3ea-43a2-a85a-8a2b7c19bdbf")
 	)
-	(no_connect
-		(at 100.33 123.19)
-		(uuid "9fc9bb43-dbca-44fa-843f-18c95f8b4b99")
-	)
 	(wire
 		(pts
 			(xy 118.11 102.87) (xy 133.35 102.87)
@@ -1326,17 +874,27 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 39.37) (xy 100.33 39.37)
+			(xy 57.15 120.65) (xy 57.15 118.11)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "0effd2ca-8874-4b2a-a28b-4edb873bdfca")
+		(uuid "035719bd-0e5a-4a05-92af-17100929a1a2")
 	)
 	(wire
 		(pts
-			(xy 46.99 102.87) (xy 46.99 59.69)
+			(xy 73.66 41.91) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0911f836-227f-41fd-8a8f-be6a4df40ee4")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.37) (xy 46.99 102.87)
 		)
 		(stroke
 			(width 0.254)
@@ -1346,13 +904,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 102.87) (xy 118.11 102.87)
+			(xy 88.9 39.37) (xy 118.11 39.37)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
-		(uuid "13ae410d-7658-4c56-8c92-ee6ee38dee17")
+		(uuid "1583e28f-b204-48c0-b5f2-d13230a12474")
+	)
+	(wire
+		(pts
+			(xy 67.31 39.37) (xy 73.66 39.37)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "26cd864b-e551-45f7-8dc6-e5da6383e2f0")
 	)
 	(wire
 		(pts
@@ -1366,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 102.87) (xy 67.31 102.87)
+			(xy 57.15 102.87) (xy 68.58 102.87)
 		)
 		(stroke
 			(width 0.254)
@@ -1376,23 +944,33 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 113.03) (xy 57.15 113.03)
+			(xy 67.31 41.91) (xy 67.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce8e536-ba6c-4e05-802b-08f93fe409ce")
+	)
+	(wire
+		(pts
+			(xy 82.55 120.65) (xy 82.55 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8142d704-5a03-45c8-b268-eab9e7f26535")
+	)
+	(wire
+		(pts
+			(xy 57.15 120.65) (xy 82.55 120.65)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(uuid "8354cab6-7d38-4dc3-a5ff-ad336d4e67cf")
-	)
-	(wire
-		(pts
-			(xy 67.31 59.69) (xy 46.99 59.69)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "848a89cb-70ee-4b38-bc77-b508daa5d21b")
 	)
 	(wire
 		(pts
@@ -1406,33 +984,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 57.15 49.53)
+			(xy 57.15 57.15) (xy 81.28 57.15)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(uuid "888eee5d-1a2d-4159-be48-478043563ec6")
-	)
-	(wire
-		(pts
-			(xy 46.99 123.19) (xy 67.31 123.19)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "88bd8a04-5dba-4ceb-a000-560a7c4f8320")
-	)
-	(wire
-		(pts
-			(xy 46.99 102.87) (xy 46.99 123.19)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "8f3aaf58-39aa-40f8-9050-507ae620b0a1")
 	)
 	(wire
 		(pts
@@ -1446,6 +1004,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 102.87) (xy 118.11 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "91da201d-2c98-4111-9393-04b1b0b884a8")
+	)
+	(wire
+		(pts
 			(xy 57.15 39.37) (xy 67.31 39.37)
 		)
 		(stroke
@@ -1453,6 +1021,46 @@
 			(type default)
 		)
 		(uuid "9ac9cbfa-ea05-489b-b84f-9454d11096cb")
+	)
+	(wire
+		(pts
+			(xy 57.15 118.11) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a4f3b644-2030-4298-98a1-583b489fd8ff")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 57.15 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7d451d-ffd7-453c-8448-2b179615953a")
+	)
+	(wire
+		(pts
+			(xy 57.15 120.65) (xy 57.15 118.11)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b8855ced-b237-44cd-9f4c-58fd63b181eb")
+	)
+	(wire
+		(pts
+			(xy 74.93 105.41) (xy 68.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac212dd-69be-4a43-a9a3-c8c86bc51d61")
 	)
 	(wire
 		(pts
@@ -1476,23 +1084,63 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 113.03) (xy 57.15 110.49)
+			(xy 57.15 110.49) (xy 57.15 102.87)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "c79f72ed-d09f-42aa-8062-dcf922f3f055")
+		(uuid "ccad1654-778f-4c50-bf64-132ff9a8bd1f")
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 57.15 46.99)
+			(xy 57.15 57.15) (xy 57.15 54.61)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(uuid "ccf10448-7b7b-4fc6-9f06-f29b7fa88290")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 81.28 49.53)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d2f9d7de-d801-4683-85b8-1a84ce594ba4")
+	)
+	(wire
+		(pts
+			(xy 57.15 118.11) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe4b413-5fad-4fd5-8809-a09f0640d0f2")
+	)
+	(wire
+		(pts
+			(xy 68.58 105.41) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5e489b-e96b-48fc-b6eb-688fd19f8fc9")
+	)
+	(wire
+		(pts
+			(xy 68.58 102.87) (xy 74.93 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f4a98789-18a0-4608-a7e4-851ad63d1f76")
 	)
 	(wire
 		(pts
@@ -1503,16 +1151,6 @@
 			(type default)
 		)
 		(uuid "fa2ec3f3-79b7-4477-9a1d-eca736d05291")
-	)
-	(wire
-		(pts
-			(xy 46.99 59.69) (xy 46.99 39.37)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "fdc2fd00-4369-4ec8-9806-750bcb08383d")
 	)
 	(hierarchical_label "1V8"
 		(shape output)
@@ -1860,7 +1498,7 @@
 	)
 	(symbol
 		(lib_id "Mini-altium-import:MCU_1_Cap 0.1uF 100V")
-		(at 54.61 107.95 0)
+		(at 54.61 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1868,7 +1506,7 @@
 		(dnp no)
 		(uuid "08500902-24d9-4828-991d-752b12643cd9")
 		(property "Reference" "REG.C.2"
-			(at 59.436 107.696 0)
+			(at 59.436 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1515,7 @@
 			)
 		)
 		(property "Value" "0805 - TALL"
-			(at 59.436 110.236 0)
+			(at 59.436 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1524,7 @@
 			)
 		)
 		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1542,7 @@
 			)
 		)
 		(property "Description" "0805, X5R or better"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1551,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF 25V"
-			(at 51.562 115.316 0)
+			(at 51.562 122.936 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -1922,7 +1560,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1570,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "1276-1066-2-ND"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1580,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Digi-Key"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1590,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "1276-1066-1-ND"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1600,7 @@
 			)
 		)
 		(property "PNP-NZL" "2"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1610,7 @@
 			)
 		)
 		(property "PNP-DX" "0"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1620,7 @@
 			)
 		)
 		(property "PNP-DY" "0"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +1630,7 @@
 			)
 		)
 		(property "PNP-LEVEL" "1"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +1640,7 @@
 			)
 		)
 		(property "PNP-LV" "1"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +1650,7 @@
 			)
 		)
 		(property "PNP-PT" "0"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +1660,7 @@
 			)
 		)
 		(property "PNP-THK" "1.25"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +1670,7 @@
 			)
 		)
 		(property "PNP-TS" "70"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2042,7 +1680,7 @@
 			)
 		)
 		(property "PNP-TYPE" "chi"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +1690,7 @@
 			)
 		)
 		(property "PNP-VOFF" "0"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +1700,7 @@
 			)
 		)
 		(property "PNP-W" "0"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2072,7 +1710,7 @@
 			)
 		)
 		(property "PNP-X" "2.00"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2082,7 +1720,7 @@
 			)
 		)
 		(property "PNP-Y" "1.25"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2092,7 +1730,7 @@
 			)
 		)
 		(property "PNP-A" "0"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2102,7 +1740,7 @@
 			)
 		)
 		(property "PNP-FEEDTYPE" "Tape"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +1750,7 @@
 			)
 		)
 		(property "PNP-PLACEPRIORITY" "1"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +1760,7 @@
 			)
 		)
 		(property "PNP-TAPEWIDTH" "8"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +1770,7 @@
 			)
 		)
 		(property "PNP-TAPEINDEX" "1"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +1780,7 @@
 			)
 		)
 		(property "PNP-DA" "0"
-			(at 54.864 102.362 0)
+			(at 54.864 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +1790,7 @@
 			)
 		)
 		(property "Supplier 1" "Digi-Key"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2162,7 +1800,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "1276-1066-2-ND"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2172,7 +1810,7 @@
 			)
 		)
 		(property "Supplier 2" "Digi-Key"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2182,7 +1820,7 @@
 			)
 		)
 		(property "Supplier Part Number 2" "1276-1066-1-ND"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2192,7 +1830,7 @@
 			)
 		)
 		(property "PNP-Nzl" "2"
-			(at 51.562 104.14 0)
+			(at 51.562 111.76 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2202,7 +1840,7 @@
 			)
 		)
 		(property "PNP-dx" "0"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2212,7 +1850,7 @@
 			)
 		)
 		(property "PNP-dy" "0"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2222,7 +1860,7 @@
 			)
 		)
 		(property "PNP-Pt" "0"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2232,7 +1870,7 @@
 			)
 		)
 		(property "PNP-Thk" "1.25"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2242,7 +1880,7 @@
 			)
 		)
 		(property "PNP-Lv" "1"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2252,7 +1890,7 @@
 			)
 		)
 		(property "PNP-Level" "1"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2262,7 +1900,7 @@
 			)
 		)
 		(property "PNP-Type" "chi"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2272,7 +1910,7 @@
 			)
 		)
 		(property "PNP-Voff" "0"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2282,7 +1920,7 @@
 			)
 		)
 		(property "PNP-FeedType" "Tape"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2292,7 +1930,7 @@
 			)
 		)
 		(property "PNP-TapeWidth" "8"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2302,7 +1940,7 @@
 			)
 		)
 		(property "PNP-PlacePriority" "1"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2312,7 +1950,7 @@
 			)
 		)
 		(property "PNP-TapeIndex" "1"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2322,7 +1960,7 @@
 			)
 		)
 		(property "PNP-da" "0"
-			(at 54.61 107.95 0)
+			(at 54.61 115.57 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2478,7 +2116,7 @@
 	)
 	(symbol
 		(lib_id "Base-altium-import:GND_POWER_GROUND")
-		(at 57.15 113.03 0)
+		(at 57.15 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2486,7 +2124,7 @@
 		(dnp no)
 		(uuid "267d1e53-673d-492e-b979-716ff1cf78e7")
 		(property "Reference" "#PWR02"
-			(at 57.15 113.03 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2133,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 119.38 0)
+			(at 57.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 113.03 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 113.03 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 113.03 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2181,7 @@
 	)
 	(symbol
 		(lib_id "Mini-altium-import:MCU_1_Cap 0.1uF 100V")
-		(at 54.61 44.45 0)
+		(at 54.61 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2551,7 +2189,7 @@
 		(dnp no)
 		(uuid "2b0b9cc5-1613-4a13-a0ff-d303ba4f70d4")
 		(property "Reference" "REG.C.1"
-			(at 59.436 44.196 0)
+			(at 59.436 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2198,7 @@
 			)
 		)
 		(property "Value" "0805 - TALL"
-			(at 59.436 46.736 0)
+			(at 59.436 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2207,7 @@
 			)
 		)
 		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2225,7 @@
 			)
 		)
 		(property "Description" "0805, X5R or better"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2234,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1uF 25V"
-			(at 51.562 51.816 0)
+			(at 51.562 59.436 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2605,7 +2243,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2253,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "1276-1066-2-ND"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2263,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Digi-Key"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2273,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "1276-1066-1-ND"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2283,7 @@
 			)
 		)
 		(property "PNP-NZL" "2"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2293,7 @@
 			)
 		)
 		(property "PNP-DX" "0"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2303,7 @@
 			)
 		)
 		(property "PNP-DY" "0"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2313,7 @@
 			)
 		)
 		(property "PNP-LEVEL" "1"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2323,7 @@
 			)
 		)
 		(property "PNP-LV" "1"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2333,7 @@
 			)
 		)
 		(property "PNP-PT" "0"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2343,7 @@
 			)
 		)
 		(property "PNP-THK" "1.25"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2353,7 @@
 			)
 		)
 		(property "PNP-TS" "70"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2725,7 +2363,7 @@
 			)
 		)
 		(property "PNP-TYPE" "chi"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2373,7 @@
 			)
 		)
 		(property "PNP-VOFF" "0"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2383,7 @@
 			)
 		)
 		(property "PNP-W" "0"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2755,7 +2393,7 @@
 			)
 		)
 		(property "PNP-X" "2.00"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2765,7 +2403,7 @@
 			)
 		)
 		(property "PNP-Y" "1.25"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2775,7 +2413,7 @@
 			)
 		)
 		(property "PNP-A" "0"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2785,7 +2423,7 @@
 			)
 		)
 		(property "PNP-FEEDTYPE" "Tape"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2433,7 @@
 			)
 		)
 		(property "PNP-PLACEPRIORITY" "1"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2443,7 @@
 			)
 		)
 		(property "PNP-TAPEWIDTH" "8"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2453,7 @@
 			)
 		)
 		(property "PNP-TAPEINDEX" "1"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2463,7 @@
 			)
 		)
 		(property "PNP-DA" "0"
-			(at 54.864 38.862 0)
+			(at 54.864 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2473,7 @@
 			)
 		)
 		(property "Supplier 1" "Digi-Key"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2845,7 +2483,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "1276-1066-2-ND"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2855,7 +2493,7 @@
 			)
 		)
 		(property "Supplier 2" "Digi-Key"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2865,7 +2503,7 @@
 			)
 		)
 		(property "Supplier Part Number 2" "1276-1066-1-ND"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2875,7 +2513,7 @@
 			)
 		)
 		(property "PNP-Nzl" "2"
-			(at 51.562 40.64 0)
+			(at 51.562 48.26 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2885,7 +2523,7 @@
 			)
 		)
 		(property "PNP-dx" "0"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2895,7 +2533,7 @@
 			)
 		)
 		(property "PNP-dy" "0"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2905,7 +2543,7 @@
 			)
 		)
 		(property "PNP-Pt" "0"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2915,7 +2553,7 @@
 			)
 		)
 		(property "PNP-Thk" "1.25"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2925,7 +2563,7 @@
 			)
 		)
 		(property "PNP-Lv" "1"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2935,7 +2573,7 @@
 			)
 		)
 		(property "PNP-Level" "1"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2945,7 +2583,7 @@
 			)
 		)
 		(property "PNP-Type" "chi"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2955,7 +2593,7 @@
 			)
 		)
 		(property "PNP-Voff" "0"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2965,7 +2603,7 @@
 			)
 		)
 		(property "PNP-FeedType" "Tape"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2975,7 +2613,7 @@
 			)
 		)
 		(property "PNP-TapeWidth" "8"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2985,7 +2623,7 @@
 			)
 		)
 		(property "PNP-PlacePriority" "1"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -2995,7 +2633,7 @@
 			)
 		)
 		(property "PNP-TapeIndex" "1"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -3005,7 +2643,7 @@
 			)
 		)
 		(property "PNP-da" "0"
-			(at 54.61 44.45 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.8288 1.8288)
@@ -3030,73 +2668,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Base-altium-import:GND_POWER_GROUND")
-		(at 100.33 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bb434e7-0190-482f-849d-05119a2f163a")
-		(property "Reference" "#PWR03"
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "3d9b86dd-1bac-4322-8c5a-2b49e9081ee5")
-		)
-		(instances
-			(project "Mini"
-				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/1faf9b33-b055-4bb1-8a99-61f96e7aae2e"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Base-altium-import:REG_0_AP2202K-3.3")
-		(at 82.55 44.45 0)
+		(lib_id "Regulator_Linear:AP2204K-3.3")
+		(at 81.28 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3104,7 +2677,7 @@
 		(dnp no)
 		(uuid "2bed56d6-6674-4612-aca1-2b733184b845")
 		(property "Reference" "U3"
-			(at 74.93 36.83 0)
+			(at 73.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +2686,7 @@
 			)
 		)
 		(property "Value" "AP2202K-3.3"
-			(at 74.93 64.77 0)
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,8 +2694,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PowerSupply:AP2202 - SOT95P270X145-5N"
-			(at 82.55 44.45 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 81.28 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,8 +2703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 82.55 44.45 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+			(at 81.28 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,8 +2712,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 82.55 44.45 0)
+		(property "Description" "150mA low dropout linear regulator, wide input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +2722,7 @@
 			)
 		)
 		(property "PNP-NZL" "2"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +2732,7 @@
 			)
 		)
 		(property "PNP-DX" "0"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +2742,7 @@
 			)
 		)
 		(property "PNP-DY" "0"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +2752,7 @@
 			)
 		)
 		(property "PNP-X" "2.9"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +2762,7 @@
 			)
 		)
 		(property "PNP-Y" "1.3"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +2772,7 @@
 			)
 		)
 		(property "PNP-A" "90"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +2782,7 @@
 			)
 		)
 		(property "PNP-PT" "0"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +2792,7 @@
 			)
 		)
 		(property "PNP-W" "0"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +2802,7 @@
 			)
 		)
 		(property "PNP-THK" "1"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +2812,7 @@
 			)
 		)
 		(property "PNP-LV" "26"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +2822,7 @@
 			)
 		)
 		(property "PNP-TS" "90"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +2832,7 @@
 			)
 		)
 		(property "PNP-LEVEL" "1"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +2842,7 @@
 			)
 		)
 		(property "PNP-TYPE" "CHP"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +2852,7 @@
 			)
 		)
 		(property "PNP-VOFF" "0"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +2862,7 @@
 			)
 		)
 		(property "PNP-FEEDTYPE" "Tape"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +2872,7 @@
 			)
 		)
 		(property "PNP-TAPEWIDTH" "8"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +2882,7 @@
 			)
 		)
 		(property "PNP-PLACEPRIORITY" "3"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +2892,7 @@
 			)
 		)
 		(property "PNP-TAPEINDEX" "1"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +2902,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 66.802 36.83 0)
+			(at 65.532 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +2912,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "621-AP2202K-3.3TRG1"
-			(at 66.802 36.83 0)
+			(at 65.532 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +2922,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Digi-Key"
-			(at 66.802 36.83 0)
+			(at 65.532 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +2932,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "AP2202K-3.3TRG1DICT-ND"
-			(at 66.802 36.83 0)
+			(at 65.532 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +2942,7 @@
 			)
 		)
 		(property "SUPPLIER 3" "Arrow"
-			(at 66.802 36.83 0)
+			(at 65.532 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +2952,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 3" "PWagzdsTFFHKE_U17B45SP-NtndBrheJIaI5hB7gHD0ZVywxIBNyoAQstvnyfZZ0"
-			(at 66.802 36.83 0)
+			(at 65.532 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +2962,7 @@
 			)
 		)
 		(property "PNP-DA" "0"
-			(at 82.55 44.45 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3305,7 @@
 	)
 	(symbol
 		(lib_id "Base-altium-import:GND_POWER_GROUND")
-		(at 57.15 49.53 0)
+		(at 57.15 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3740,7 +3313,7 @@
 		(dnp no)
 		(uuid "5f59cbbc-aade-47d7-9934-9396bbe53aa5")
 		(property "Reference" "#PWR01"
-			(at 57.15 49.53 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 55.88 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 49.53 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 49.53 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 49.53 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,534 +3851,6 @@
 			(project "Mini"
 				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/1faf9b33-b055-4bb1-8a99-61f96e7aae2e"
 					(reference "REG.C.6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mini-altium-import:MCU_1_Cap 0.1uF 100V")
-		(at 97.79 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdc5f79a-40d8-46e4-a6c7-692d8b2664e7")
-		(property "Reference" "REG.C.3"
-			(at 102.616 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0805 - TALL"
-			(at 102.616 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Chip_Passives.PcbLib:0805 - TALL"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0805, X5R or better"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "1276-2426-1-ND"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Digi-Key"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "1276-2426-2-ND"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-NZL" "2"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DX" "0"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DY" "0"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-X" "2.00"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Y" "1.25"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PT" "0"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-W" "0"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-THK" "0.60"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LV" "1"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TS" "70"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-LEVEL" "1"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TYPE" "chi"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-VOFF" "0"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-FEEDTYPE" "Tape"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEWIDTH" "8"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PLACEPRIORITY" "1"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-A" "0"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TAPEINDEX" "1"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" "Arrow"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" "L5XIfgkrxsBQF2sGZ85JNyFE59-nywaq7sHwLppiklbTEIlO4Ffw3x4_A6bjf4Mm"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-DA" "0"
-			(at 98.044 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100pF 100V"
-			(at 102.108 69.85 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Supplier 1" "Digi-Key"
-			(at 94.742 60.96 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "1276-2426-1-ND"
-			(at 94.742 60.96 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier 2" "Digi-Key"
-			(at 94.742 60.96 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 2" "1276-2426-2-ND"
-			(at 94.742 60.96 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Nzl" "2"
-			(at 94.742 60.96 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-dx" "0"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-dy" "0"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Pt" "0"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Thk" "0.60"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Lv" "1"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Level" "1"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Type" "chi"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-Voff" "0"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-FeedType" "Tape"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TapeWidth" "8"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-PlacePriority" "1"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-TapeIndex" "1"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier 3" "Arrow"
-			(at 94.742 60.96 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 3" "L5XIfgkrxsBQF2sGZ85JNyFE59-nywaq7sHwLppiklbTEIlO4Ffw3x4_A6bjf4Mm"
-			(at 94.742 60.96 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PNP-da" "0"
-			(at 97.79 64.77 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "414394e9-5496-46fb-99be-57997aa1e0ed")
-		)
-		(pin "1"
-			(uuid "08f29e02-8af4-495d-b0c7-9b81d7112588")
-		)
-		(instances
-			(project "Mini"
-				(path "/4010ea29-f248-4f19-83ee-6b19cd4442a4/1faf9b33-b055-4bb1-8a99-61f96e7aae2e"
-					(reference "REG.C.3")
 					(unit 1)
 				)
 			)
@@ -5430,8 +4475,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Base-altium-import:REG_0_AP2204K-1.8")
-		(at 82.55 107.95 0)
+		(lib_id "Regulator_Linear:AP2204K-1.8")
+		(at 82.55 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5439,7 +4484,7 @@
 		(dnp no)
 		(uuid "ea7ab73c-8a6f-4cdc-a024-e09a3c4342a7")
 		(property "Reference" "U4"
-			(at 74.93 100.33 0)
+			(at 74.93 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +4493,7 @@
 			)
 		)
 		(property "Value" "AP2204K-1.8"
-			(at 74.93 128.27 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,8 +4501,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PowerSupply:AP2202 - SOT95P270X145-5N"
-			(at 82.55 107.95 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 82.55 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,8 +4510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 82.55 107.95 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+			(at 82.55 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,8 +4519,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 82.55 107.95 0)
+		(property "Description" "150mA low dropout linear regulator, wide input voltage range, 1.8V fixed positive output, SOT-23-5"
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +4529,7 @@
 			)
 		)
 		(property "PNP-NZL" "2"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +4539,7 @@
 			)
 		)
 		(property "PNP-DX" "0"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +4549,7 @@
 			)
 		)
 		(property "PNP-DY" "0"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +4559,7 @@
 			)
 		)
 		(property "PNP-X" "2.9"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +4569,7 @@
 			)
 		)
 		(property "PNP-Y" "1.3"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +4579,7 @@
 			)
 		)
 		(property "PNP-A" "90"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +4589,7 @@
 			)
 		)
 		(property "PNP-PT" "0"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +4599,7 @@
 			)
 		)
 		(property "PNP-W" "0"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +4609,7 @@
 			)
 		)
 		(property "PNP-THK" "1"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +4619,7 @@
 			)
 		)
 		(property "PNP-LV" "26"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +4629,7 @@
 			)
 		)
 		(property "PNP-TS" "90"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +4639,7 @@
 			)
 		)
 		(property "PNP-LEVEL" "1"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +4649,7 @@
 			)
 		)
 		(property "PNP-TYPE" "CHP"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +4659,7 @@
 			)
 		)
 		(property "PNP-VOFF" "0"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +4669,7 @@
 			)
 		)
 		(property "PNP-FEEDTYPE" "Tape"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +4679,7 @@
 			)
 		)
 		(property "PNP-TAPEWIDTH" "8"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +4689,7 @@
 			)
 		)
 		(property "PNP-PLACEPRIORITY" "3"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +4699,7 @@
 			)
 		)
 		(property "PNP-TAPEINDEX" "1"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +4709,7 @@
 			)
 		)
 		(property "PNP-DA" "0"
-			(at 82.55 107.95 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +4719,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 66.802 100.33 0)
+			(at 66.802 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +4729,7 @@
 			)
 		)
 		(property "SUPPLIER 2" "Mouser"
-			(at 66.802 97.79 0)
+			(at 66.802 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +4739,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "AP2204K-1.8TRG1DICT-ND"
-			(at 66.802 100.33 0)
+			(at 66.802 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +4749,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 2" "621-AP2204K-1.8TRG1"
-			(at 66.802 97.79 0)
+			(at 66.802 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
