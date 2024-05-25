@@ -114,87 +114,87 @@
 			)
 		)
 	)
-	(pad "A1" smd rect
+	(pad "A1" connect rect
 		(at -3.205 0.4)
 		(size 0.54 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "ed456be0-07b8-43ac-86b3-64162a4bcc9a")
 	)
-	(pad "A1" smd rect
+	(pad "A1" connect rect
 		(at 3.195 0.4)
 		(size 0.54 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "0432af54-cd35-4c3c-88e6-bbc1a7d2c6b4")
 	)
-	(pad "A4" smd rect
+	(pad "A4" connect rect
 		(at -2.405 0.4)
 		(size 0.54 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "c564e755-48d6-44b3-a4f6-ab960a5df536")
 	)
-	(pad "A4" smd rect
+	(pad "A4" connect rect
 		(at 2.395 0.4)
 		(size 0.54 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "7f8f1c43-60e8-4996-bc14-4119dfb0064e")
 	)
-	(pad "A5" smd rect
+	(pad "A5" connect rect
 		(at 1.245 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "50e82998-94a9-4b38-a960-5b276fe8586e")
 	)
-	(pad "A6" smd rect
+	(pad "A6" connect rect
 		(at 0.245 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "7de935c6-9119-4940-8080-9aaeda4f0cdd")
 	)
-	(pad "A7" smd rect
+	(pad "A7" connect rect
 		(at -0.255 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "41456f29-a703-4d12-85d0-c21ea7c0a452")
 	)
-	(pad "A8" smd rect
+	(pad "A8" connect rect
 		(at -1.255 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "adcccd0e-f5ea-4c83-bd8f-8b220d307709")
 	)
-	(pad "B5" smd rect
+	(pad "B5" connect rect
 		(at -1.755 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "1d052412-811d-4384-b62d-b10970534fb5")
 	)
-	(pad "B6" smd rect
+	(pad "B6" connect rect
 		(at -0.755 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "b11ebd64-c9c7-457c-8a22-c5fed71aadd1")
 	)
-	(pad "B7" smd rect
+	(pad "B7" connect rect
 		(at 0.745 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "d4512ec7-3389-4b56-9e8b-bdbd8a828957")
 	)
-	(pad "B8" smd rect
+	(pad "B8" connect rect
 		(at 1.753 0.4)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(clearance 0.15)
 		(uuid "97e1f64a-ea8c-4ff4-8e5c-27686d0544c1")
 	)

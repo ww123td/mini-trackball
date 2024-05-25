@@ -550,7 +550,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -778,6 +778,114 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-da",
+          "name": "PNP-da",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-dx",
+          "name": "PNP-dx",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-dy",
+          "name": "PNP-dy",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-Lv",
+          "name": "PNP-Lv",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-PlacePriority",
+          "name": "PNP-PlacePriority",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-TapeIndex",
+          "name": "PNP-TapeIndex",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-TapeWidth",
+          "name": "PNP-TapeWidth",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-Thk",
+          "name": "PNP-Thk",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-Type",
+          "name": "PNP-Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-Pt",
+          "name": "PNP-Pt",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-Voff",
+          "name": "PNP-Voff",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-FeedType",
+          "name": "PNP-FeedType",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-Nzl",
+          "name": "PNP-Nzl",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 1",
+          "name": "Supplier 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier 2",
+          "name": "Supplier 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number 1",
+          "name": "Supplier Part Number 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number 2",
+          "name": "Supplier Part Number 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PNP-Level",
+          "name": "PNP-Level",
           "show": false
         }
       ],

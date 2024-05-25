@@ -4508,7 +4508,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k 1%"
 			(at 142.24 92.71 90)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "18pF 100V"
 			(at 64.008 136.906 90)
 			(effects
 				(font
@@ -4639,6 +4639,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4673,7 +4674,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.182 72.136 90)
 			(effects
 				(font
@@ -4741,7 +4742,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RH100-12.000-16-3030"
+		(property "Value" "RH100-12.000-16-3030 or SX5B12.000F1620F30"
 			(at 88.9 146.812 90)
 			(effects
 				(font
@@ -4857,7 +4858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q32JVSS"
+		(property "Value" "W25Q16JVSS"
 			(at 77.47 123.1899 0)
 			(effects
 				(font
@@ -4999,18 +5000,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c1e4aec-8e51-4aa5-89bd-069fa8bc735d")
 		(property "Reference" "MCU.R.4"
-			(at 120.65 146.05 90)
+			(at 120.65 155.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 120.65 148.59 90)
+		(property "Value" "1k 1%"
+			(at 120.65 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5076,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.182 41.656 90)
 			(effects
 				(font
@@ -5144,7 +5144,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "18pF 100V"
 			(at 63.754 159.766 90)
 			(effects
 				(font
@@ -5207,6 +5207,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5242,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 121.92 91.44 90)
 			(effects
 				(font
@@ -5310,7 +5311,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 25V"
 			(at 190.5063 19.05 90)
 			(effects
 				(font
@@ -5442,7 +5443,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.182 49.276 90)
 			(effects
 				(font
@@ -5574,7 +5575,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf"
+		(property "Value" "1uF 25V"
 			(at 194.818 84.836 90)
 			(effects
 				(font
@@ -5941,7 +5942,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.436 27.686 90)
 			(effects
 				(font
@@ -5998,7 +5999,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "79bcf07b-8b8e-474f-8e44-93af212a93ae")
 		(property "Reference" "MCU.J.2"
 			(at 88.9 102.87 0)
@@ -6443,7 +6444,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.182 56.896 90)
 			(effects
 				(font
@@ -6575,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.182 64.516 90)
 			(effects
 				(font
@@ -6902,7 +6903,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.182 34.036 90)
 			(effects
 				(font
@@ -6969,7 +6970,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 100V"
 			(at 186.182 78.486 90)
 			(effects
 				(font
@@ -7232,7 +7233,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k 1%"
 			(at 107.95 91.44 90)
 			(effects
 				(font
@@ -7300,7 +7301,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "100nF 100V"
 			(at 29.972 118.618 0)
 			(effects
 				(font
@@ -7363,6 +7364,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"

@@ -1394,7 +1394,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "1k 1%"
 			(at 153.162 139.446 0)
 			(effects
 				(font
@@ -1457,6 +1457,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1900,7 +1901,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "1k 1%"
 			(at 153.162 86.106 0)
 			(effects
 				(font
@@ -1963,6 +1964,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2063,7 +2065,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "100R 1%"
 			(at 102.362 70.866 0)
 			(effects
 				(font
@@ -2146,6 +2148,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"

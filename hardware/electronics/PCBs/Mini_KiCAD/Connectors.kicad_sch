@@ -3714,7 +3714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "22R 1%"
 			(at 206.756 111.252 0)
 			(effects
 				(font
@@ -3797,6 +3797,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3825,7 +3826,7 @@
 		(fields_autoplaced yes)
 		(uuid "58bb07d1-bccc-4d06-ac60-c76ce7e3a559")
 		(property "Reference" "USB.C.1"
-			(at 209.55 65.4049 0)
+			(at 209.55 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,8 +3834,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 209.55 67.31 0)
+		(property "Value" "10uF 25V"
+			(at 209.55 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 88.9 111.7599 0)
 			(effects
 				(font
@@ -4071,7 +4072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0805"
+		(property "Value" "22R 1%"
 			(at 206.756 101.092 0)
 			(effects
 				(font
@@ -4154,6 +4155,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4289,7 +4291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 100.33 111.7599 0)
 			(effects
 				(font
@@ -4358,7 +4360,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "GT-USB-9014C or GT-USB-9014AB or TYPE-C-31-M-13B"
 			(at 69.85 57.15 0)
 			(effects
 				(font
@@ -4472,7 +4474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 123.19 111.7599 0)
 			(effects
 				(font
@@ -4607,7 +4609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 111.76 111.7599 0)
 			(effects
 				(font
