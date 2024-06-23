@@ -77,8 +77,48 @@
 		(uuid "0d1b47e4-b269-426f-9170-a2e4bc5edf62")
 	)
 	(fp_line
-		(start -14.65 1.05)
-		(end 3.05 1.05)
+		(start -14.48 1.05)
+		(end 2.78 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d0d7b67-eac0-402d-bf0c-57e7ba92f42d")
+	)
+	(fp_line
+		(start -14.48 9.65)
+		(end -14.48 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "387133e8-8b57-4c04-bf5a-0b0d56e9fa44")
+	)
+	(fp_line
+		(start -14.48 9.65)
+		(end 2.78 9.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0021eb5f-312c-4031-a319-c5ec6c21f9cb")
+	)
+	(fp_line
+		(start 2.78 9.65)
+		(end 2.78 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd8f3b35-3c45-4452-baa0-b9d38e38226f")
+	)
+	(fp_line
+		(start -14.48 1.05)
+		(end 2.78 1.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -87,8 +127,8 @@
 		(uuid "03446cd6-4a5d-44a0-bd78-a91b8a78d829")
 	)
 	(fp_line
-		(start -14.65 9.65)
-		(end -14.65 1.05)
+		(start -14.48 9.65)
+		(end -14.48 1.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -97,8 +137,8 @@
 		(uuid "5de71cfa-a62e-4b06-a4a4-2aa7c2719aeb")
 	)
 	(fp_line
-		(start -14.65 9.65)
-		(end 3.05 9.65)
+		(start -14.48 9.65)
+		(end 2.78 9.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -107,8 +147,8 @@
 		(uuid "48ae66ce-cfbb-4046-94a3-5f2f647ce078")
 	)
 	(fp_line
-		(start 3.05 9.65)
-		(end 3.05 1.05)
+		(start 2.78 9.65)
+		(end 2.78 1.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -735,5 +775,16 @@
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "e9a6edba-ffb1-4fea-8283-23efe02df185")
+	)
+	(model "${KIPRJMOD}/OptoElectronics.pretty/3D/PMW3360-LM19-LSI-Assembly.stp"
+		(offset
+			(xyz -5.5 -29.65 -7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
 	)
 )

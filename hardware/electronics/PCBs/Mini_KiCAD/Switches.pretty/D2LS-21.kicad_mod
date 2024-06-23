@@ -345,7 +345,7 @@
 		(remove_unused_layers no)
 		(uuid "84e23ebd-d97e-4eef-bf88-4d033698befc")
 	)
-	(pad "A" smd roundrect
+	(pad "1" smd roundrect
 		(at -5.29999 0 180)
 		(size 2.4 4.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -354,7 +354,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "5b8a384e-1180-4f8a-bf53-a96c906e6722")
 	)
-	(pad "B" smd roundrect
+	(pad "2" smd roundrect
 		(at 5.3 0 180)
 		(size 2.4 4.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")

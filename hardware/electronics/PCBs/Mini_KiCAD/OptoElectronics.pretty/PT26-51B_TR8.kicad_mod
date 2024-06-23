@@ -1,4 +1,4 @@
-(footprint "PT26-51B/TR8"
+(footprint "PT26-51B_TR8"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "PT26-51B/TR8"
+	(property "Footprint" "PT26-51B_TR8"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -176,7 +176,7 @@
 		(layer "B.Fab")
 		(uuid "88c98a86-a8e4-41b5-b0d5-e5df9c053611")
 	)
-	(pad "C" smd roundrect
+	(pad "1" smd roundrect
 		(at 0 -1.8024)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -185,7 +185,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "2e15173e-0521-45bc-b5a0-ac8d980f9159")
 	)
-	(pad "E" smd roundrect
+	(pad "2" smd roundrect
 		(at 0 1.8024)
 		(size 1.5 1.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")

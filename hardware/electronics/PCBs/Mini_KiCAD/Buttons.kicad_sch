@@ -9,20 +9,24 @@
 		(company "Ploopy Corporation")
 	)
 	(lib_symbols
-		(symbol "Mini-altium-import:BTN_0_D2LS-21"
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,6 +34,24 @@
 				)
 			)
 			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,31 +69,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Compact Surface-mounting Switch for long durability"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*D2LS-21*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BTN_0_D2LS-21_1_0"
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -1.778 0)
-					(radius 0.703)
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -79,11 +83,11 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -2.54 0)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -91,218 +95,152 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0.508) (xy 1.27 2.286)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center 1.778 0)
-					(radius 0.703)
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 3.81)
-					(end -5.08 -2.54)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Mini-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0) hide
-					(name "GND"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -315,7 +253,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 76.2) (xy 182.88 76.2)
+			(xy 180.34 76.2) (xy 185.42 76.2)
 		)
 		(stroke
 			(width 0.254)
@@ -336,23 +274,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 200.66 76.2)
+			(xy 195.58 101.6) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
-		(uuid "0f493929-63f1-4869-8e45-95ab383c7722")
+		(uuid "13fd0852-5e90-4394-87e6-00fbfb41c1e0")
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 200.66 101.6)
+			(xy 119.38 101.6) (xy 121.92 101.6)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "15425740-4c4f-4afc-a15e-075e86a88d9d")
+		(uuid "23fe7522-f02e-4d66-bb2c-7c7a6187c2e4")
 	)
 	(polyline
 		(pts
@@ -378,13 +316,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 127) (xy 175.26 127)
+			(xy 172.72 127) (xy 177.8 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43b43a20-9b90-44d0-b9da-e41aedb6dc57")
+		(uuid "3b990119-0406-43e2-8869-e26a32035f78")
 	)
 	(wire
 		(pts
@@ -398,13 +336,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 106.68 101.6)
+			(xy 104.14 101.6) (xy 109.22 101.6)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(uuid "7104aad6-730c-4fe5-afaa-93c98afb34aa")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 185.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7340e767-d92a-4809-ae5e-36c0c5785f51")
 	)
 	(wire
 		(pts
@@ -429,7 +377,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 124.46 76.2)
+			(xy 119.38 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0.254)
@@ -449,7 +397,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 106.68 76.2)
+			(xy 104.14 76.2) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0.254)
@@ -500,7 +448,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 160.02 127)
+			(xy 195.58 76.2) (xy 200.66 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "da73fccc-32e9-4cdc-86a1-b289f0a29d30")
+	)
+	(wire
+		(pts
+			(xy 157.48 127) (xy 162.56 127)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +811,7 @@
 		(uuid "f1d73bf2-4a28-4084-b312-6e3d1c1e953a")
 	)
 	(symbol
-		(lib_id "Mini-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 200.66 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -896,7 +854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 200.66 104.14 0)
 			(effects
 				(font
@@ -905,7 +863,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "8f79279c-42a8-4884-bf51-010ef9450aa3")
 		)
 		(instances
@@ -918,7 +876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 200.66 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -961,7 +919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -970,7 +928,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "ca652a7b-51b5-4a4f-ae9e-dae2ddaeda86")
 		)
 		(instances
@@ -983,7 +941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:BTN_0_D2LS-21")
+		(lib_id "Switch:SW_Push")
 		(at 167.64 127 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1010,7 +968,7 @@
 			)
 		)
 		(property "Footprint" "Switches.PcbLib:D2LS-21"
-			(at 167.64 127 0)
+			(at 167.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,8 +976,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 167.64 127 0)
+		(property "Datasheet" "~"
+			(at 167.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 167.64 127 0)
 			(effects
 				(font
@@ -1076,10 +1034,10 @@
 				(hide yes)
 			)
 		)
-		(pin "B"
+		(pin "1"
 			(uuid "bde4dad5-5508-442b-abd0-7cdd6b43b7f5")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "5b18a908-496c-4c6a-82ec-0f8452a263b3")
 		)
 		(instances
@@ -1092,7 +1050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:BTN_0_D2LS-21")
+		(lib_id "Switch:SW_Push")
 		(at 190.5 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1119,7 +1077,7 @@
 			)
 		)
 		(property "Footprint" "Switches.PcbLib:D2LS-21"
-			(at 190.5 101.6 0)
+			(at 190.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,8 +1085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 101.6 0)
+		(property "Datasheet" "~"
+			(at 190.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -1185,10 +1143,10 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "bdf755f4-f71b-4060-bb60-3091a9592b51")
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "5fcb1937-10ce-461c-a3e7-88e3114a4fed")
 		)
 		(instances
@@ -1201,7 +1159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:BTN_0_D2LS-21")
+		(lib_id "Switch:SW_Push")
 		(at 114.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1228,7 +1186,7 @@
 			)
 		)
 		(property "Footprint" "Switches.PcbLib:D2LS-21"
-			(at 114.3 101.6 0)
+			(at 114.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,8 +1194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 114.3 101.6 0)
+		(property "Datasheet" "~"
+			(at 114.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -1294,10 +1252,10 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "90d44a7d-4088-4edf-9b23-4f82bc8911a2")
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "9094f5ff-a87d-4e49-8b42-fae6abb65ccc")
 		)
 		(instances
@@ -1310,7 +1268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 124.46 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1353,7 +1311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -1362,7 +1320,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "19723630-80db-4a01-8a32-44e576575bd6")
 		)
 		(instances
@@ -1375,7 +1333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:BTN_0_D2LS-21")
+		(lib_id "Switch:SW_Push")
 		(at 114.3 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1402,7 +1360,7 @@
 			)
 		)
 		(property "Footprint" "Switches.PcbLib:D2LS-21"
-			(at 114.3 76.2 0)
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,8 +1368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 114.3 76.2 0)
+		(property "Datasheet" "~"
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 114.3 76.2 0)
 			(effects
 				(font
@@ -1468,10 +1426,10 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "5683b161-086a-4580-804b-d42988b7ceb7")
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "782e9adb-b356-4d76-abb1-b50211847015")
 		)
 		(instances
@@ -1484,7 +1442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:BTN_0_D2LS-21")
+		(lib_id "Switch:SW_Push")
 		(at 190.5 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1511,7 +1469,7 @@
 			)
 		)
 		(property "Footprint" "Switches.PcbLib:D2LS-21"
-			(at 190.5 76.2 0)
+			(at 190.5 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,8 +1477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 76.2 0)
+		(property "Datasheet" "~"
+			(at 190.5 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -1577,10 +1535,10 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "4315075e-d604-4709-8209-a6caba09ea6a")
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "2eba8982-d0a1-4021-9646-4774e6946870")
 		)
 		(instances
@@ -1593,7 +1551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 124.46 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1636,7 +1594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 104.14 0)
 			(effects
 				(font
@@ -1645,7 +1603,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "ef6e29b5-0947-4691-9ed8-3967919fcb80")
 		)
 		(instances
@@ -1658,7 +1616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mini-altium-import:GND_POWER_GROUND")
+		(lib_id "power:GND")
 		(at 177.8 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1701,7 +1659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -1710,7 +1668,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "2ca08354-3b65-4b5a-8d95-ce17edf1f7ba")
 		)
 		(instances
