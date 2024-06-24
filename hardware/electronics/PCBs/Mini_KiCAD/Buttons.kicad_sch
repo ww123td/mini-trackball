@@ -292,6 +292,16 @@
 		)
 		(uuid "23fe7522-f02e-4d66-bb2c-7c7a6187c2e4")
 	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 104.14 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2a97b54a-7f78-4f5e-b279-0ac1a5bd8901")
+	)
 	(polyline
 		(pts
 			(xy 167.64 203.2) (xy 238.76 203.2)
@@ -394,16 +404,6 @@
 			(type default)
 		)
 		(uuid "8b887d50-2306-4367-8fc0-1e6dcf64c02f")
-	)
-	(wire
-		(pts
-			(xy 104.14 76.2) (xy 109.22 76.2)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "9a1b08f0-d14f-4599-ba99-2344962b7174")
 	)
 	(wire
 		(pts
