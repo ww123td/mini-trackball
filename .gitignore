@@ -38,3 +38,6 @@ jlcpcb/
 *.step
 *.gbr
 *.drl
+
+#kicad extension files
+fabrication-toolkit-options.json
